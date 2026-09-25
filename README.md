@@ -1,11 +1,13 @@
 # LAWS-Lens
 
-Private paper-reproduction staging for **GWLR-UC-01 / C_PHYSICAL**, with the
+Paper-reproduction repository for **GWLR-UC-01 / C_PHYSICAL**, with the
 paper's FPP/GPD analyses and DOMAIN04 runtime benchmark.
 
-**Not a public release.** Licenses, software/data contributors, ORCID identifiers
-and publication approval are pending. There is no published Zenodo DOI. No
-scientific model, score, ranking or manuscript was changed for this upload.
+**The repository is public; the Zenodo data release is not yet published.**
+The author authorized public visibility on 2026-09-25. License selection and
+software/data contributor confirmation are pending; public visibility alone
+does not grant a new open-source or data license. No scientific model, score,
+ranking or manuscript was changed for this upload.
 
 ## Version identity
 
@@ -33,9 +35,9 @@ Trained weights, injection arrays, native sky maps, pair scores, manuscript
 snapshot and the offline wheelhouse belong in the separately indexed archives.
 They are intentionally not stored in Git history.
 
-Zenodo upload is **in progress from the release server**. The local execution
+Zenodo upload is **incomplete, with large-file transport errors**. The local execution
 network is restricted, but the release server can access Zenodo normally.
-Private drafts are [software](https://zenodo.org/deposit/22949904) and
+Unpublished drafts are [software](https://zenodo.org/deposit/22949904) and
 [data/models](https://zenodo.org/deposit/22949906); sign in as the owner to view
 them. They are not published or publicly downloadable releases.
 `release/UPLOAD_STATUS.json` records the dated status. A checksum in a manifest
@@ -105,8 +107,9 @@ Hanabi-table overlap is not a new Hanabi analysis or a lensing confirmation.
 
 ## Licensing and publication
 
-See `LICENSE_STATUS.md`. Keeping this repository private does not complete
-third-party licensing review. No repository-wide license has been granted here.
-Do not make the repository public or publish Zenodo drafts before author review.
+See `LICENSE_STATUS.md`. No repository-wide license has been granted here.
+Public visibility is not a certification of third-party redistribution rights.
+Zenodo publication must wait for complete verified uploads, author-confirmed
+metadata and appropriate licenses/third-party rights review.
 
 Chinese delivery notes: `release/FINAL_DELIVERY_R2_CN.md`.

@@ -2,11 +2,12 @@
   "date_utc": "2026-09-25",
   "github": {
     "repository": "zqk-7k/LAWS-Lens",
-    "visibility": "private",
-    "purpose": "author-review software staging"
+    "visibility": "public",
+    "purpose": "paper reproduction; license selection pending",
+    "anonymous_read_verified": true
   },
   "zenodo": {
-    "status": "UPLOAD_IN_PROGRESS_NOT_COMPLETE",
+    "status": "UPLOAD_ERROR_OTHER_FILES_FINISHING",
     "local_execution_network": "restricted; not the upload path",
     "upload_path": "authorized release server",
     "software_draft": "https://zenodo.org/deposit/22949904",
@@ -15,13 +16,16 @@
     "software_record_files_uploaded_and_readback_verified": 4,
     "data_record_files_uploaded_and_readback_verified": 10,
     "data_large_archives_remaining": 6,
-    "progress_as_of_utc": "2026-09-25T02:52:01Z",
+    "progress_as_of_utc": "2026-09-25T03:24:00Z",
+    "failed_large_file_tasks": 4,
+    "failure_type": "TLS SSLEOFError after bounded retries",
     "server_job_pid": 202154,
     "maximum_parallel_file_transfers": 3,
     "doi_status": "reserved identifiers only; not published or registered for citation",
     "published": false
   },
-  "public_release_authorized": false,
+  "public_release_authorized": true,
+  "zenodo_publication_gate": "incomplete uploads; creators and licenses pending confirmation",
   "license_decision": "PENDING_AUTHOR",
   "scientific_payload_modified": false
 }
