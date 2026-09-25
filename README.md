@@ -33,9 +33,17 @@ Trained weights, injection arrays, native sky maps, pair scores, manuscript
 snapshot and the offline wheelhouse belong in the separately indexed archives.
 They are intentionally not stored in Git history.
 
-Zenodo upload is **blocked by a service network restriction** at the time of this
-staging. `release/UPLOAD_STATUS.json` records the status. A checksum in a manifest
+Zenodo upload is **in progress from the release server**. The local execution
+network is restricted, but the release server can access Zenodo normally.
+Private drafts are [software](https://zenodo.org/deposit/22949904) and
+[data/models](https://zenodo.org/deposit/22949906); sign in as the owner to view
+them. They are not published or publicly downloadable releases.
+`release/UPLOAD_STATUS.json` records the dated status. A checksum in a manifest
 is not evidence that the corresponding file has already been uploaded.
+
+The frozen software archive at commit `3356ccf` retains its pre-upload status
+text. These newer upload notes and `READ_FIRST_ZENODO_DRAFT.md` supersede that
+historical status without changing the archived scientific payload.
 
 ## Reproduction
 

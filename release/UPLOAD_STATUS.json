@@ -6,13 +6,20 @@
     "purpose": "author-review software staging"
   },
   "zenodo": {
-    "status": "BLOCKED_NETWORK_RESTRICTION",
-    "http_status": 403,
-    "message": "Access restricted due to unusual traffic from the network",
-    "service_reference": "82fd484b596ea0a321f25a0834d0f7ac",
-    "draft_created": false,
-    "files_uploaded": 0,
-    "doi": null
+    "status": "UPLOAD_IN_PROGRESS_NOT_COMPLETE",
+    "local_execution_network": "restricted; not the upload path",
+    "upload_path": "authorized release server",
+    "software_draft": "https://zenodo.org/deposit/22949904",
+    "data_models_draft": "https://zenodo.org/deposit/22949906",
+    "draft_created": true,
+    "software_record_files_uploaded_and_readback_verified": 4,
+    "data_record_files_uploaded_and_readback_verified": 10,
+    "data_large_archives_remaining": 6,
+    "progress_as_of_utc": "2026-09-25T02:52:01Z",
+    "server_job_pid": 202154,
+    "maximum_parallel_file_transfers": 3,
+    "doi_status": "reserved identifiers only; not published or registered for citation",
+    "published": false
   },
   "public_release_authorized": false,
   "license_decision": "PENDING_AUTHOR",
