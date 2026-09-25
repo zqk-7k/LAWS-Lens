@@ -4,9 +4,9 @@ Paper-reproduction repository for **GWLR-UC-01 / C_PHYSICAL**, with the
 paper's FPP/GPD analyses and DOMAIN04 runtime benchmark.
 
 **The repository is public; the Zenodo data release is not yet published.**
-The author authorized public visibility on 2026-09-25. License selection and
-software/data contributor confirmation are pending; public visibility alone
-does not grant a new open-source or data license. No scientific model, score,
+The author confirmed MIT for original code, CC BY 4.0 for self-generated data
+and model weights, and the six creators on 2026-09-25. Third-party materials
+retain their original terms. No scientific model, score,
 ranking or manuscript was changed for this upload.
 
 ## Version identity
@@ -107,9 +107,9 @@ Hanabi-table overlap is not a new Hanabi analysis or a lensing confirmation.
 
 ## Licensing and publication
 
-See `LICENSE_STATUS.md`. No repository-wide license has been granted here.
+See `LICENSE_STATUS.md`, `LICENSE` and `THIRD_PARTY_NOTICES.md` for license scope.
 Public visibility is not a certification of third-party redistribution rights.
-Zenodo publication must wait for complete verified uploads, author-confirmed
-metadata and appropriate licenses/third-party rights review.
+Zenodo publication must wait for complete verified uploads and third-party
+redistribution review; the author metadata and original-content licenses are approved.
 
 Chinese delivery notes: `release/FINAL_DELIVERY_R2_CN.md`.

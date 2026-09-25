@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the versioned LAWS-Lens software and data records when published."
+type: software
+title: "LAWS-Lens"
+version: "1.0.0-rc2"
+url: "https://github.com/zqk-7k/LAWS-Lens"
+license: MIT
+authors:
+  - family-names: Zhang
+    given-names: Qikai
+    affiliation: "State Key Laboratory of Ocean Sensing and Ocean College, Zhejiang University, Zhoushan 316021, China"
+  - family-names: Yang
+    given-names: Qiyuan
+    affiliation: "School of Physics and Technology, Wuhan University, Wuhan 430072, China"
+  - family-names: Huang
+    given-names: Jiaqing
+    affiliation: "Jiangsu Sungo Intelligent Technology Research Center Co., Ltd., Jiangsu 226019, China"
+  - family-names: Yuan
+    given-names: Yong
+    affiliation: "Center for Gravitational Wave Experiment, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China"
+  - family-names: Zhang
+    given-names: Fan
+    affiliation: "State Key Laboratory of Ocean Sensing and Ocean College, Zhejiang University, Zhoushan 316021, China; Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+  - family-names: Fan
+    given-names: Xilong
+    affiliation: "School of Physics and Technology, Wuhan University, Wuhan 430072, China"

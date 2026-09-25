@@ -1,0 +1,54 @@
+{
+  "upstream_commit_compared": "676152529bc1c4349ddc0531bb01b5e626034907",
+  "comparison_not_original_install_commit": true,
+  "files": [
+    {
+      "file": "__init__.py",
+      "local_sha256": "a038c88b99f4d4989e6aba0bb15a6de1ec0aa2171c63cddc9fc5dae87ab192a3",
+      "upstream_sha256": "a038c88b99f4d4989e6aba0bb15a6de1ec0aa2171c63cddc9fc5dae87ab192a3",
+      "byte_match": true
+    },
+    {
+      "file": "gw_utils.py",
+      "local_sha256": "706609a7fe82abf893faeb6a5ea264f15cdc12b54fa1b529f66f7dd4b8be9894",
+      "upstream_sha256": "706609a7fe82abf893faeb6a5ea264f15cdc12b54fa1b529f66f7dd4b8be9894",
+      "byte_match": true
+    },
+    {
+      "file": "gwphase.py",
+      "local_sha256": "2ed0d9f66e782d749fba7b23b0ebe99957780a9a38ca79ad5ea0abe8cf4fb8c8",
+      "upstream_sha256": "2ed0d9f66e782d749fba7b23b0ebe99957780a9a38ca79ad5ea0abe8cf4fb8c8",
+      "byte_match": true
+    },
+    {
+      "file": "pe_input.py",
+      "local_sha256": "24500dd81fe7d1f9efbec3370fa33581745a71bcd9882d7d0a3616e648f2e22f",
+      "upstream_sha256": "24500dd81fe7d1f9efbec3370fa33581745a71bcd9882d7d0a3616e648f2e22f",
+      "byte_match": true
+    },
+    {
+      "file": "phazap.py",
+      "local_sha256": "f51f091de4f22a4c577eb0b8662d2710affdd46b733820cef0caefcdcc964763",
+      "upstream_sha256": "f51f091de4f22a4c577eb0b8662d2710affdd46b733820cef0caefcdcc964763",
+      "byte_match": true
+    },
+    {
+      "file": "postprocess_phase.py",
+      "local_sha256": "f5b2eead1f0d38aacd57bd92a700226af7f835cd060d371781403baf5fbe0641",
+      "upstream_sha256": "f5b2eead1f0d38aacd57bd92a700226af7f835cd060d371781403baf5fbe0641",
+      "byte_match": true
+    },
+    {
+      "file": "tension_utils.py",
+      "local_sha256": "0b14e5d840a7515598d31a92c1ec6c1f417109a1da766a46339e5bbbe152c533",
+      "upstream_sha256": "0b14e5d840a7515598d31a92c1ec6c1f417109a1da766a46339e5bbbe152c533",
+      "byte_match": true
+    },
+    {
+      "file": "utils.py",
+      "local_sha256": "0c54d3eed8d3dabe23d447062670db4f6f1ab66557c5b9c38371ad1c0f1a0405",
+      "upstream_sha256": "0c54d3eed8d3dabe23d447062670db4f6f1ab66557c5b9c38371ad1c0f1a0405",
+      "byte_match": true
+    }
+  ]
+}

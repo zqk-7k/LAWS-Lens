@@ -1,13 +1,21 @@
-# License status: pending author review
+# Author-approved licenses and scope
 
-The author authorized public repository visibility on 2026-09-25. That visibility
-change is not a repository-wide licensing grant.
+Confirmed by the author on 2026-09-25:
 
-The author must separately approve licensing for original software, trained
-weights and generated data, and confirm software/data contributors. Third-party
-programs, public inputs and quoted material retain their respective rights and
-must not be relicensed as project-owned content. Existing notices are retained.
+- Original LAWS-Lens code: MIT (`LICENSE`).
+- Self-generated data and trained model weights: Creative Commons Attribution
+  4.0 International, https://creativecommons.org/licenses/by/4.0/legalcode.en .
+- Third-party materials: original licenses, attribution and redistribution
+  conditions retained; see `THIRD_PARTY_NOTICES.md`.
+- Creators and order: Qikai Zhang, Qiyuan Yang, Jiaqing Huang, Yong Yuan,
+  Fan Zhang, Xilong Fan. Affiliations follow the paper snapshot. No ORCID is inferred.
 
-No SPDX identifier, open-data license, ORCID or third-party redistribution
-permission is inferred from upload authorization. Publication must wait for
-completion of the author and third-party rights review.
+This approval supersedes license/creator-pending statements in historical release
+receipts. It does not supersede incomplete transport checks or third-party rights
+review. MIT and CC BY 4.0 do not license third-party inputs or dependency binaries
+on the authors' behalf. The manuscript snapshot is not included in the grant for
+self-generated datasets merely because it is packaged alongside them.
+
+GitHub public visibility and Zenodo publication have been authorized, subject to
+complete upload verification and third-party review. A reserved DOI is not a
+published record. Scientific payloads and historical packages remain unchanged.

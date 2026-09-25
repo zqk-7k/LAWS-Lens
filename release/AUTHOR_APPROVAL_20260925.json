@@ -1,0 +1,38 @@
+{
+  "confirmed_by": "author in conversation",
+  "date_utc": "2026-09-25",
+  "original_code_license": "MIT",
+  "self_generated_data_and_model_license": "CC-BY-4.0",
+  "third_party": "original rights retained; review required",
+  "creators": [
+    {
+      "name": "Zhang, Qikai",
+      "affiliation": "State Key Laboratory of Ocean Sensing and Ocean College, Zhejiang University, Zhoushan 316021, China"
+    },
+    {
+      "name": "Yang, Qiyuan",
+      "affiliation": "School of Physics and Technology, Wuhan University, Wuhan 430072, China"
+    },
+    {
+      "name": "Huang, Jiaqing",
+      "affiliation": "Jiangsu Sungo Intelligent Technology Research Center Co., Ltd., Jiangsu 226019, China"
+    },
+    {
+      "name": "Yuan, Yong",
+      "affiliation": "Center for Gravitational Wave Experiment, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China"
+    },
+    {
+      "name": "Zhang, Fan",
+      "affiliation": "State Key Laboratory of Ocean Sensing and Ocean College, Zhejiang University, Zhoushan 316021, China; Kavli Institute for Astrophysics and Space Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA"
+    },
+    {
+      "name": "Fan, Xilong",
+      "affiliation": "School of Physics and Technology, Wuhan University, Wuhan 430072, China"
+    }
+  ],
+  "publish_authorized": true,
+  "publish_requires": [
+    "complete upload and SHA256 readback",
+    "third-party redistribution review"
+  ]
+}
