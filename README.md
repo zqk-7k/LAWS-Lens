@@ -47,6 +47,13 @@ The frozen software archive at commit `3356ccf` retains its pre-upload status
 text. These newer upload notes and `READ_FIRST_ZENODO_DRAFT.md` supersede that
 historical status without changing the archived scientific payload.
 
+The licensed rc2 software snapshot is commit `9814623`; its archive was uploaded
+and fully SHA-256 read back from both GitHub and the Zenodo software draft.
+Four large scientific archives are being retried as 65 checked transport volumes;
+this does not modify the originals. The offline wheelhouse is not being retried
+until its third-party redistribution obligations are resolved.
+See `release/THIRD_PARTY_REVIEW_20260925_CN.md` and the dated upload status.
+
 ## Reproduction
 
 1. Obtain the eight exact archives listed in the release index from the author

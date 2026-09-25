@@ -1,0 +1,94 @@
+{
+  "verified": [
+    {
+      "record": 22949904,
+      "file": "AUTHOR_APPROVAL_20260925.json",
+      "bytes": 1442,
+      "sha256": "021f4329c9bce39deb697831c0da0d7d923c2a4f451085dfa9d191e3c55f9058",
+      "status": "PASS",
+      "seconds": 0.33
+    },
+    {
+      "record": 22949904,
+      "file": "LICENSE_STATUS.md",
+      "bytes": 1207,
+      "sha256": "e45c586d10503dfcc353b689745beca040131c9c0027cdfac4e1e3ad14e294a7",
+      "status": "PASS",
+      "seconds": 0.32
+    },
+    {
+      "record": 22949904,
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2275,
+      "sha256": "17a0b0b3ac9ae433b9320d7d9473cd1d6bbc7554a3af422a53476b46cd893fab",
+      "status": "PASS",
+      "seconds": 0.38
+    },
+    {
+      "record": 22949904,
+      "file": "CITATION.cff",
+      "bytes": 1281,
+      "sha256": "dc1e20d8d51b1caba864c2340bd0784099db23b1ebb54f7e76489971efaa6d70",
+      "status": "PASS",
+      "seconds": 0.32
+    },
+    {
+      "record": 22949904,
+      "file": "THIRD_PARTY_REVIEW_20260925_CN.md",
+      "bytes": 4098,
+      "sha256": "a35a5f434451a26285fb117f7436569f2ecd7246d07bb643fec039ef676b8b90",
+      "status": "PASS",
+      "seconds": 0.37
+    },
+    {
+      "record": 22949904,
+      "file": "LAWS_Lens_software_v1.0.0-rc2.tar.gz",
+      "bytes": 3868963,
+      "sha256": "d1bf256cd5b1139cce3fabffb8326bd51ed9f02efbe329ccfc999b94e5766195",
+      "status": "PASS",
+      "seconds": 56.04
+    },
+    {
+      "record": 22949906,
+      "file": "AUTHOR_APPROVAL_20260925.json",
+      "bytes": 1442,
+      "sha256": "021f4329c9bce39deb697831c0da0d7d923c2a4f451085dfa9d191e3c55f9058",
+      "status": "PASS",
+      "seconds": 0.34
+    },
+    {
+      "record": 22949906,
+      "file": "LICENSE_STATUS.md",
+      "bytes": 1207,
+      "sha256": "e45c586d10503dfcc353b689745beca040131c9c0027cdfac4e1e3ad14e294a7",
+      "status": "PASS",
+      "seconds": 0.35
+    },
+    {
+      "record": 22949906,
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2275,
+      "sha256": "17a0b0b3ac9ae433b9320d7d9473cd1d6bbc7554a3af422a53476b46cd893fab",
+      "status": "PASS",
+      "seconds": 0.32
+    },
+    {
+      "record": 22949906,
+      "file": "CITATION.cff",
+      "bytes": 1281,
+      "sha256": "dc1e20d8d51b1caba864c2340bd0784099db23b1ebb54f7e76489971efaa6d70",
+      "status": "PASS",
+      "seconds": 0.33
+    },
+    {
+      "record": 22949906,
+      "file": "THIRD_PARTY_REVIEW_20260925_CN.md",
+      "bytes": 4098,
+      "sha256": "a35a5f434451a26285fb117f7436569f2ecd7246d07bb643fec039ef676b8b90",
+      "status": "PASS",
+      "seconds": 0.61
+    }
+  ],
+  "errors": [],
+  "publish": false
+}
