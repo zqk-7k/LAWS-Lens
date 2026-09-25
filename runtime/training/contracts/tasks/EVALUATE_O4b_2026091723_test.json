@@ -1,0 +1,23 @@
+{
+  "state": "EVALUATE_O4b_2026091723_test",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "evaluate",
+    "--run",
+    "O4b",
+    "--split",
+    "test",
+    "--seed",
+    "2026091723"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/EVALUATE_O4b_2026091723_test_1789813440237602891.log",
+  "seconds": 29.35124170407653,
+  "utc": "2026-09-19T10:24:29.588913+00:00"
+}

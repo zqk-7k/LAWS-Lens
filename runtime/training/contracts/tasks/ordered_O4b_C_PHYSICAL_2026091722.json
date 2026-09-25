@@ -1,0 +1,23 @@
+{
+  "state": "ordered_O4b_C_PHYSICAL_2026091722",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/train_components_r2.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "ordered",
+    "--run",
+    "O4b",
+    "--arm",
+    "C_PHYSICAL",
+    "--seed",
+    "2026091722"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/ordered_O4b_C_PHYSICAL_2026091722_1789799384166286084.log",
+  "seconds": 18.771433889865875,
+  "utc": "2026-09-19T06:30:02.937791+00:00"
+}

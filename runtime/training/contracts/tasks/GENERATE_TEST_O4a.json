@@ -1,0 +1,25 @@
+{
+  "state": "GENERATE_TEST_O4a",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/unified_ab.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "generate",
+    "--run",
+    "O4a",
+    "--role",
+    "main",
+    "--split",
+    "test",
+    "--workers",
+    "8"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/GENERATE_TEST_O4a_1789806880348813585.log",
+  "seconds": 17.02874954789877,
+  "utc": "2026-09-19T08:34:57.377624+00:00"
+}

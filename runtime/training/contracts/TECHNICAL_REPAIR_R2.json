@@ -1,0 +1,82 @@
+{
+  "utc": "2026-09-19T04:19:41.715864+00:00",
+  "type": "technical_bugfix_not_scientific_retuning",
+  "cause": "resolved symlink compared to unresolved plan alias",
+  "original_freeze_unchanged": true,
+  "original_freeze_sha256": "107e70ebe06ee27fdabb0bb8c41b1fa37a08048b60667d931c166b9ac5a2c342",
+  "original_adapter_sha256": "3fd18d0c38103691cc806a83140a15306b45c339e067f4873709caa6019679ef",
+  "new_files": {
+    "scripts/train_components_r2.py": "f193b5564c91e3b853eae787582b8a9a611b3232b199def5c24c77bed1cd74ac",
+    "scripts/noise_alias.py": "36a6d5147380e2b83e60385b4145d750e3d20bfe744480eb0a737d92305ad5cc",
+    "scripts/test_noise_alias.py": "a2aefd5d878a0930787c2470c5b80063ab537c1259f9ada165b9135ea6de1b5d",
+    "scripts/c_resume_r2.py": "edc08fa3ad75b0b16c7603aca6aa700c27d04d06cac8209d9de617a3adb0779f"
+  },
+  "unit_tests": 5,
+  "unit_tests_passed": true,
+  "noise_audit": [
+    {
+      "run": "O3",
+      "name": "noise_reference_bank.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O3/noise_reference_bank.npy",
+      "sha256": "e5e547635496c34f17c555541dca1148744c11981147b89a84b224ade20c2d59",
+      "existing_alias_matches": true
+    },
+    {
+      "run": "O3",
+      "name": "noise_psd_bank.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O3/noise_psd_bank.npy",
+      "sha256": "032e6ea49dc27fa9f5686366e154676d17201c0017d7e7f9a38e2bc24ef1f44d",
+      "existing_alias_matches": true
+    },
+    {
+      "run": "O3",
+      "name": "noise_psd_frequency.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O3/noise_psd_frequency.npy",
+      "sha256": "bda51cbb04c829fd261b6bea7a3326c747c656f0a7546f6073be11867a413fc0",
+      "existing_alias_matches": true
+    },
+    {
+      "run": "O4a",
+      "name": "noise_reference_bank.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O4a/noise_reference_bank.npy",
+      "sha256": "a08b35efbb9b6201e24f8f95e226887c4ad5dda08e1ead35ad022afd60d2909e",
+      "existing_alias_matches": false
+    },
+    {
+      "run": "O4a",
+      "name": "noise_psd_bank.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O4a/noise_psd_bank.npy",
+      "sha256": "4d284c93838be7ea674e5f35e833db462dc5a07d23f99d9747e4104e89df10fd",
+      "existing_alias_matches": false
+    },
+    {
+      "run": "O4a",
+      "name": "noise_psd_frequency.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O4a/noise_psd_frequency.npy",
+      "sha256": "bda51cbb04c829fd261b6bea7a3326c747c656f0a7546f6073be11867a413fc0",
+      "existing_alias_matches": false
+    },
+    {
+      "run": "O4b",
+      "name": "noise_reference_bank.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O4b/noise_reference_bank.npy",
+      "sha256": "f926d14a73a092c0df5f731e6da6be0adda9632320c282e33e65d13d82f39383",
+      "existing_alias_matches": false
+    },
+    {
+      "run": "O4b",
+      "name": "noise_psd_bank.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O4b/noise_psd_bank.npy",
+      "sha256": "4a0c10357b8e6a3939fb7dd698489f42ff3d0e19cd13c3c8e1527ab8ce6ce691",
+      "existing_alias_matches": false
+    },
+    {
+      "run": "O4b",
+      "name": "noise_psd_frequency.npy",
+      "actual": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4/plans/O4b/noise_psd_frequency.npy",
+      "sha256": "bda51cbb04c829fd261b6bea7a3326c747c656f0a7546f6073be11867a413fc0",
+      "existing_alias_matches": false
+    }
+  ],
+  "scientific_settings_changed": false
+}

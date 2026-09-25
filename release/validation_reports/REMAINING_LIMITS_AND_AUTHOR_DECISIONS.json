@@ -1,0 +1,36 @@
+[
+  {
+    "type": "original_author_layout",
+    "item": "11 original plotting entrypoints",
+    "state": "NOT_RECOVERED",
+    "resolution": "Independent data-equivalent scripts and plotted-value manifests supplied; exact original layouts not claimed."
+  },
+  {
+    "type": "validation_scope",
+    "item": "Whole population, training and fresh noise-bank acquisition",
+    "state": "NOT_RERUN",
+    "resolution": "All models replayed; six frozen validation events regenerated through bank recovery and sky. Whole-population retraining not certified."
+  },
+  {
+    "type": "validation_scope",
+    "item": "New physical host and full 126 GiB network acquisition",
+    "state": "NOT_TESTED",
+    "resolution": "Fresh locked environment and independent extraction on the same server; 847 existing inputs hashed, three public tables freshly fetched."
+  },
+  {
+    "type": "author_decision",
+    "item": "Repository/account, licenses, software/data contributors, ORCID and public date",
+    "state": "PENDING_AUTHOR"
+  },
+  {
+    "type": "third_party",
+    "item": "Code/data/model redistribution rights",
+    "state": "PENDING_MANUAL_LICENSE_REVIEW"
+  },
+  {
+    "type": "scientific_boundary",
+    "item": "Real significance, fixed GPD endpoint and annual FAR",
+    "state": "NOT_CERTIFIED_BY_REPRODUCTION",
+    "resolution": "B=4 remains a model assumption with 4.5/5 sensitivity. Conditional FPP does not establish real-candidate significance or annual exposure."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "release_name": "LAWS-Lens paper release v1.0.0 DRAFT",
+  "baseline": "GWLR-UC-01/C_PHYSICAL",
+  "paper_commit": "afb86ff5c8f212aec579592f0d7439f3f909d931",
+  "publication_authorized": false,
+  "repository_created": false,
+  "zenodo_created": false,
+  "license": "PENDING_AUTHOR_AND_THIRD_PARTY_REVIEW",
+  "status": "HOLD_FOR_AUTHOR_REVIEW_NO_PUBLICATION",
+  "missing_author_decisions": [
+    "repository/account",
+    "code/model/data licenses",
+    "ORCID",
+    "publication time"
+  ],
+  "created_utc": "2026-09-24T13:13:07Z",
+  "independent_full_pipeline_reproduction": false,
+  "validation_report": "reports/RELEASE_VALIDATION_STATUS.json"
+}

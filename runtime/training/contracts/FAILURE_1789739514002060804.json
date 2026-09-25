@@ -1,0 +1,6 @@
+{
+  "state": "HOLD_C_ERROR",
+  "utc": "2026-09-18T13:51:54.000578+00:00",
+  "complete_results": false,
+  "error": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_controller.py\", line 168, in main\n    train(root)\n  File \"/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_controller.py\", line 148, in train\n    task(root,f'FEATURES_{run}_{split}','train_components.py','--stage','features',\n  File \"/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_controller.py\", line 46, in task\n    raise RuntimeError(f'{label} failed; {path}')\nRuntimeError: FEATURES_O3_validation failed; /root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/FEATURES_O3_validation_1789739510964118311.log\n"
+}

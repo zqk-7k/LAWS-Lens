@@ -1,0 +1,23 @@
+{
+  "state": "MAPS_O3_validation",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "maps",
+    "--run",
+    "O3",
+    "--split",
+    "validation",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/MAPS_O3_validation_1789800185233368708.log",
+  "seconds": 2.667869845405221,
+  "utc": "2026-09-19T06:43:07.901317+00:00"
+}

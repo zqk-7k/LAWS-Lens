@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "archives": [
+    {
+      "file": "LAWS_Lens_v1_DRAFT_code_models_scores_20260924.tar.gz",
+      "sha256_pass": true
+    },
+    {
+      "file": "LAWS_Lens_v1_DRAFT_paper_fpp_speed_20260924.tar.gz",
+      "sha256_pass": true
+    },
+    {
+      "file": "LAWS_Lens_v1_DRAFT_validation_fixtures_20260924.tar.gz",
+      "sha256_pass": true
+    },
+    {
+      "file": "LAWS_Lens_v1_DRAFT_release_audit_v2_20260924.tar.gz",
+      "sha256_pass": true
+    },
+    {
+      "file": "GWLR_UC_01_native_BAYESTAR_maps.tar.gz",
+      "sha256_pass": true
+    },
+    {
+      "file": "GWLR_UC01_verified_wheelhouse.tar",
+      "sha256_pass": true
+    },
+    {
+      "file": "LAWS_Lens_v1_DRAFT_reproduction_extension_r2p1_20260924.tar.gz",
+      "sha256_pass": true
+    },
+    {
+      "file": "LAWS_Lens_v1_DRAFT_test_real_fixtures_r2_20260924.tar.gz",
+      "sha256_pass": true
+    }
+  ],
+  "stages": [
+    {
+      "stage": "figures",
+      "returncode": 0,
+      "wall_seconds": 15.053508559241891,
+      "log": "REPLAY_delivered_r2p1_replay_figures.log",
+      "status": "PASS"
+    },
+    {
+      "stage": "all-subsets",
+      "returncode": 0,
+      "wall_seconds": 99.43168392404914,
+      "log": "REPLAY_delivered_r2p1_replay_all-subsets.log",
+      "status": "PASS"
+    },
+    {
+      "stage": "test-real-models",
+      "returncode": 0,
+      "wall_seconds": 155.32346135564148,
+      "log": "REPLAY_delivered_r2p1_replay_test-real-models.log",
+      "status": "PASS"
+    },
+    {
+      "stage": "recovery",
+      "returncode": 0,
+      "wall_seconds": 212.73363078385592,
+      "log": "REPLAY_delivered_r2p1_replay_recovery.log",
+      "status": "PASS"
+    }
+  ],
+  "extraction_root": "/root/autodl-tmp/gw-catalog/release_builds/laws_lens_paper_v1_20260924_r2/verification/delivered_r2p1_replay",
+  "scope": "Fresh extraction and isolated locked environment on same physical server; not a second host.",
+  "extracted_file_hash_checks": 4017,
+  "extracted_hash_failures": 0,
+  "historical_read_isolation": [
+    {
+      "script": "replay_all_subsets",
+      "status": "PASS",
+      "violations": []
+    },
+    {
+      "script": "replay_test_real_models",
+      "status": "PASS",
+      "violations": []
+    },
+    {
+      "script": "replay_recovery",
+      "status": "PASS",
+      "violations": []
+    }
+  ],
+  "extracted_payload_changed_by_replay": [],
+  "does_not_certify": [
+    "Full public-corpus download",
+    "Full population retraining",
+    "New-host execution",
+    "Original layouts for 11 figures",
+    "Licenses or real-candidate significance"
+  ]
+}

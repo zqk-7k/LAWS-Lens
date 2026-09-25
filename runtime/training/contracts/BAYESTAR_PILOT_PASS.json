@@ -1,0 +1,7 @@
+{
+  "state": "PASS",
+  "events": 90,
+  "same_data_inputs": true,
+  "calibrated_posterior_claim": false,
+  "bank_coverage_claim": false
+}

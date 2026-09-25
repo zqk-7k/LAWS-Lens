@@ -1,0 +1,8 @@
+{
+  "state": "PASS",
+  "byte_array_True": true,
+  "false_array": true,
+  "ambiguous_rejected": true,
+  "permutation_roundtrip_exact": true,
+  "uniform_BF_one": true
+}

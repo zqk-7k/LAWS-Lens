@@ -1,0 +1,21 @@
+{
+  "state": "RNC_PREPARE_O4b",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/train_components_r2.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "rnc-prepare",
+    "--run",
+    "O4b",
+    "--arm",
+    "C_PHYSICAL"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/RNC_PREPARE_O4b_1789798244687273296.log",
+  "seconds": 20.651705157011747,
+  "utc": "2026-09-19T06:11:05.339045+00:00"
+}

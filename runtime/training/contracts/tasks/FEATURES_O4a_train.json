@@ -1,0 +1,23 @@
+{
+  "state": "FEATURES_O4a_train",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/train_components_r2.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "features",
+    "--run",
+    "O4a",
+    "--arm",
+    "C_PHYSICAL",
+    "--split",
+    "train"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/FEATURES_O4a_train_1789794996182932623.log",
+  "seconds": 133.44602538086474,
+  "utc": "2026-09-19T05:18:49.629025+00:00"
+}

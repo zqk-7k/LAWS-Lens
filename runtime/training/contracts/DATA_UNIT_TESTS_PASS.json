@@ -1,0 +1,6 @@
+{
+  "state": "PASS",
+  "pilot_events": 90,
+  "common_amplitude_all_views": true,
+  "waveform_inputs_rebuilt_bitwise_from_sky_raw_strain": true
+}

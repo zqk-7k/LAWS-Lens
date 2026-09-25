@@ -1,0 +1,48 @@
+{
+  "utc": "2026-09-19T10:24:32.705852+00:00",
+  "files": [
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/retrieval_metrics_per_seed.csv",
+      "sha256": "d3203fcba915af40f6e07b59e8c3d1a66d10ead43d22e725633e5ba9728bcd0c"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/catalog190_all_draws.csv",
+      "sha256": "41267295000152a835bfe5fe2025c065ebc80ab2251e22a4dd71681a42ab75d6"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/retrieval_summary_450.csv",
+      "sha256": "d4d4351883c30dedee490b7d118c6898933891f2b5d7ea5ce05e3037ad0c88e2"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/A_B_C_comparison_450.csv",
+      "sha256": "e6322ce1fda15aa9ba10ca58eaf0df203b5e952bd92d7d48fcdd8cc803343f37"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/retrieval_summary_190.csv",
+      "sha256": "a15f73c3e0eb5ea575233a3cf6b12933e9371a55c5ee534a7b2d79a245f64db4"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/A_B_C_comparison_190.csv",
+      "sha256": "d1f1941fb4d6daaee4c02cdd1eea68dd22b38602e94de2e1529de00a9d2a679a"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/cluster_intervals.csv",
+      "sha256": "39ce01a8f0fdd8d37ddb2288eb82a383155ded9c6ff7717a1690a71bd1c8bd67"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/channel_distributions.csv",
+      "sha256": "bdc9007a7d2cda863e768aea0b3118db9d8d01118badb8db8390af29a91513e6"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/selected_weights.csv",
+      "sha256": "23abfe555b8af4e8d333c4df578b417753d4e240c4484a28b8e09dca30fda0f0"
+    }
+  ],
+  "runs": 3,
+  "arms": 1,
+  "model_seeds": 3,
+  "native_events": 450,
+  "controlled_events": 190,
+  "real_used": false,
+  "no_test_retuning": true
+}

@@ -1,0 +1,31 @@
+{
+  "state": "PASS",
+  "tests": [
+    {
+      "test": "AP_ROC_F50_F90",
+      "ties": false,
+      "pass_test": true
+    },
+    {
+      "test": "AP_ROC_F50_F90",
+      "ties": true,
+      "pass_test": true
+    },
+    {
+      "test": "uniform_retrieval_ties",
+      "pass_test": true
+    },
+    {
+      "test": "weighted_tail_reduces_to_original",
+      "pass_test": true
+    },
+    {
+      "test": "weighted_metric_uniform_replay",
+      "pass_test": true
+    },
+    {
+      "test": "source_group_total_one_after_subset",
+      "pass_test": true
+    }
+  ]
+}

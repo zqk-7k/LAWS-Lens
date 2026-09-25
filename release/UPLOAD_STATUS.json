@@ -1,0 +1,20 @@
+{
+  "date_utc": "2026-09-25",
+  "github": {
+    "repository": "zqk-7k/LAWS-Lens",
+    "visibility": "private",
+    "purpose": "author-review software staging"
+  },
+  "zenodo": {
+    "status": "BLOCKED_NETWORK_RESTRICTION",
+    "http_status": 403,
+    "message": "Access restricted due to unusual traffic from the network",
+    "service_reference": "82fd484b596ea0a321f25a0834d0f7ac",
+    "draft_created": false,
+    "files_uploaded": 0,
+    "doi": null
+  },
+  "public_release_authorized": false,
+  "license_decision": "PENDING_AUTHOR",
+  "scientific_payload_modified": false
+}

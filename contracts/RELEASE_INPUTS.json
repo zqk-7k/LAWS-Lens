@@ -1,0 +1,50 @@
+[
+  {
+    "role": "C_REVIEWED",
+    "original_path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/package/GWLR_UC_01_deliverables_reviewed.tar.gz",
+    "bytes": 767753424,
+    "sha256": "bd5e31e619b0de31a7d605351fc06ff6be5cb828b59d5d0d667269d58e1865a5",
+    "extracted_to": "runtime",
+    "publication_authorized": false
+  },
+  {
+    "role": "C_NATIVE_MAPS",
+    "original_path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/package/GWLR_UC_01_native_BAYESTAR_maps.tar.gz",
+    "bytes": 1789735382,
+    "sha256": "1287ef0c4a7850a2c3052a2c1c133cc89a96e65dbc16acdcf6f8e5d41ee90583",
+    "extracted_to": null,
+    "publication_authorized": false
+  },
+  {
+    "role": "RECONSTRUCTION",
+    "original_path": "/root/autodl-tmp/gw-catalog/results/gwlr_uc01_reproducibility_20260919T154000Z/package/GWLR_UC01_reconstruction_inputs_and_code.tar.gz",
+    "bytes": 789318020,
+    "sha256": "d2e1f9307cfaed3c02886a6ae6894917f952111b285d12d524e751ddc8059d7a",
+    "extracted_to": "runtime",
+    "publication_authorized": false
+  },
+  {
+    "role": "ENVIRONMENT_AND_INPUTS",
+    "original_path": "/root/autodl-tmp/gw-catalog/results/gwlr_uc01_reproducibility_20260919T154000Z/package/GWLR_UC01_REPRODUCIBILITY_SUPPLEMENT_20260919.tar.gz",
+    "bytes": 665122,
+    "sha256": "65ea4c51205801d2ca4aac3c15b3352d786db6f91a2fae29d40951222649f45a",
+    "extracted_to": "supplement",
+    "publication_authorized": false
+  },
+  {
+    "role": "WHEELHOUSE",
+    "original_path": "/root/autodl-tmp/gw-catalog/results/gwlr_uc01_reproducibility_20260919T154000Z/package/GWLR_UC01_verified_wheelhouse.tar",
+    "bytes": 4240568320,
+    "sha256": "cac552a805b14f52c83cefffd105612221ea5329fb3e4495d27f8b490e92e7ab",
+    "extracted_to": null,
+    "publication_authorized": false
+  },
+  {
+    "role": "DOMAIN04",
+    "original_path": "/root/autodl-tmp/gw-catalog/packages/trilens_speed_domain04_20260917T155616Z_deliverables.tar.gz",
+    "bytes": 4271782,
+    "sha256": "09cb162aa3f6fee78db236b2aaf0c0f21a5f43c1579b326f43c303c8cb29e820",
+    "extracted_to": "speed",
+    "publication_authorized": false
+  }
+]

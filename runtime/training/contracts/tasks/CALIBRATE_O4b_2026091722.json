@@ -1,0 +1,23 @@
+{
+  "state": "CALIBRATE_O4b_2026091722",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "calibrate",
+    "--run",
+    "O4b",
+    "--split",
+    "validation",
+    "--seed",
+    "2026091722"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/CALIBRATE_O4b_2026091722_1789803300959403511.log",
+  "seconds": 50.01884073205292,
+  "utc": "2026-09-19T07:35:50.978319+00:00"
+}

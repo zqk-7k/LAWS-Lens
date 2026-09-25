@@ -1,0 +1,23 @@
+{
+  "state": "RESOLUTION_O4a_test",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "resolution",
+    "--run",
+    "O4a",
+    "--split",
+    "test",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/RESOLUTION_O4a_test_1789815911787156024.log",
+  "seconds": 533.0430348273367,
+  "utc": "2026-09-19T11:14:04.830260+00:00"
+}

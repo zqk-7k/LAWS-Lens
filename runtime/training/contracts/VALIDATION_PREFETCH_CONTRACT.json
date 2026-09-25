@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-19T04:28:20.188892+00:00",
+  "type": "execution_order_only",
+  "validation_only": true,
+  "requires_completed_model_tasks_per_run": 15,
+  "test_gates_unchanged": true,
+  "map_lock": "unchanged exclusive per-run/arm/split flock",
+  "workers": 12,
+  "score_or_threshold_changes": false,
+  "script_sha256": "81a15d44cef9db8b378fe680af5f9e85d0c0eb1f5e40a37e767d4cccf43b2b3f"
+}

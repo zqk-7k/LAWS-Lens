@@ -1,0 +1,13 @@
+{
+  "state": "HOLD_FOR_AUTHOR_REVIEW_NO_ADOPTION_NO_OVERWRITE",
+  "complete_results": true,
+  "utc": "2026-09-19T11:38:33.705845+00:00",
+  "report": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/reports/GWLR_UC_01_COMPLETE_METHOD_AND_RESULTS_CN.md",
+  "package": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/package/GWLR_UC_01_deliverables.tar.gz",
+  "sha256": "1c8d19588e03311620d08aab5452f358aea8826277f199e48125ab07b76a37a6",
+  "native_maps": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/package/GWLR_UC_01_native_BAYESTAR_maps.tar.gz",
+  "native_maps_sha256": "1287ef0c4a7850a2c3052a2c1c133cc89a96e65dbc16acdcf6f8e5d41ee90583",
+  "native_map_count": 2790,
+  "historical_hashes_unchanged": true,
+  "no_automatic_adoption": true
+}

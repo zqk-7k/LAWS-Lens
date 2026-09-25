@@ -1,0 +1,25 @@
+{
+  "state": "AUX_O4b_validation",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/unified_ab.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "generate",
+    "--run",
+    "O4b",
+    "--role",
+    "aux",
+    "--split",
+    "validation",
+    "--workers",
+    "8"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/AUX_O4b_validation_1789797585625910687.log",
+  "seconds": 31.440593723207712,
+  "utc": "2026-09-19T06:00:17.066590+00:00"
+}

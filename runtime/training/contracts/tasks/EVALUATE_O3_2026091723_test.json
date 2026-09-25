@@ -1,0 +1,23 @@
+{
+  "state": "EVALUATE_O3_2026091723_test",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "evaluate",
+    "--run",
+    "O3",
+    "--split",
+    "test",
+    "--seed",
+    "2026091723"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/EVALUATE_O3_2026091723_test_1789806851036702745.log",
+  "seconds": 29.310923278331757,
+  "utc": "2026-09-19T08:34:40.347696+00:00"
+}

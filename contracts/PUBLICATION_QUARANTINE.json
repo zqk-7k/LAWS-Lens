@@ -1,0 +1,4 @@
+{
+  "paths": [],
+  "rule": "Unreviewed pattern-hit text files excluded from new release tarballs; exact scanner header literals are not keys."
+}

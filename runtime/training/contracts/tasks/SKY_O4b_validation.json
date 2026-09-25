@@ -1,0 +1,23 @@
+{
+  "state": "SKY_O4b_validation",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "sky",
+    "--run",
+    "O4b",
+    "--split",
+    "validation",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/SKY_O4b_validation_1789803024273664805.log",
+  "seconds": 135.54316174797714,
+  "utc": "2026-09-19T07:32:39.816908+00:00"
+}

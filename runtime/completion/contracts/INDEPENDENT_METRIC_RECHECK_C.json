@@ -1,0 +1,21 @@
+{
+  "state": "PASS",
+  "post_freeze_read_only": true,
+  "selection_changed": false,
+  "datasets": 9,
+  "checked_metrics": 648,
+  "maximum_error": 3.3306690738754696e-16,
+  "full_catalog_and_fixed_draws": [
+    450,
+    "190:draw0",
+    "190:draw499"
+  ],
+  "AP_ROC_implementation": "sklearn",
+  "retrieval": "direct ranks with expected ties",
+  "F50_F90": "positive order statistic, includes threshold ties",
+  "frozen_files_checked": 101,
+  "changed_frozen_files": [],
+  "script_sha256": "1fdb8fd623fba3da8c3a25e6c2e7608afdc2554a6750edf9ec96c9f268c6bb61",
+  "output": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/tables/independent_metric_recheck_C.csv",
+  "output_sha256": "528a07ab26580298d4a2d3803b868d14a6f9b44caf843e9baa5bd3da43841649"
+}

@@ -1,0 +1,23 @@
+{
+  "state": "conditional_O4a_C_PHYSICAL_2026091722",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/train_components_r2.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "conditional",
+    "--run",
+    "O4a",
+    "--arm",
+    "C_PHYSICAL",
+    "--seed",
+    "2026091722"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/conditional_O4a_C_PHYSICAL_2026091722_1789796305845184861.log",
+  "seconds": 12.418716644868255,
+  "utc": "2026-09-19T05:38:38.263973+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "state": "INFER_O3_2026091722_development",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "infer",
+    "--run",
+    "O3",
+    "--split",
+    "development",
+    "--seed",
+    "2026091722"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/INFER_O3_2026091722_development_1789800438840240354.log",
+  "seconds": 29.666312593966722,
+  "utc": "2026-09-19T06:47:48.506618+00:00"
+}

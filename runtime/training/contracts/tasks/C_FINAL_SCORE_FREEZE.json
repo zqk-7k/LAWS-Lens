@@ -1,0 +1,23 @@
+{
+  "state": "C_FINAL_SCORE_FREEZE",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "freeze",
+    "--run",
+    "O3",
+    "--split",
+    "validation",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/C_FINAL_SCORE_FREEZE_1789803445023909903.log",
+  "seconds": 2.292010847479105,
+  "utc": "2026-09-19T07:37:27.315991+00:00"
+}

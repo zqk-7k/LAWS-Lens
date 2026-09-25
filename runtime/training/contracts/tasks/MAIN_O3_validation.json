@@ -1,0 +1,25 @@
+{
+  "state": "MAIN_O3_validation",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/unified_ab.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "generate",
+    "--run",
+    "O3",
+    "--role",
+    "main",
+    "--split",
+    "validation",
+    "--workers",
+    "8"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/MAIN_O3_validation_1789738875871566687.log",
+  "seconds": 16.20441820845008,
+  "utc": "2026-09-18T13:41:32.076037+00:00"
+}

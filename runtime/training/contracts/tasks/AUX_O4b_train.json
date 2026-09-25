@@ -1,0 +1,25 @@
+{
+  "state": "AUX_O4b_train",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/unified_ab.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "generate",
+    "--run",
+    "O4b",
+    "--role",
+    "aux",
+    "--split",
+    "train",
+    "--workers",
+    "8"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/AUX_O4b_train_1789797655538551402.log",
+  "seconds": 445.07103380933404,
+  "utc": "2026-09-19T06:08:20.609646+00:00"
+}

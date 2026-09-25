@@ -1,0 +1,62 @@
+{
+  "code": "GWLR-UC-01",
+  "created_utc": "2026-09-18T13:28:39.722660+00:00",
+  "baseline": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_snr_ab_20260917T113500Z_r4",
+  "runs": [
+    "O3",
+    "O4a",
+    "O4b"
+  ],
+  "arms": [
+    "C_PHYSICAL"
+  ],
+  "model_seeds": [
+    2026091721,
+    2026091722,
+    2026091723
+  ],
+  "method": "NEW-SCORE-ONLY-POSITIVE-CANDIDATE",
+  "no_outer_score_mixing": true,
+  "analysis_nside": 512,
+  "main_validation_events_per_run": 450,
+  "main_test_events_per_run": 450,
+  "native_map_count": 2700,
+  "model_components": 45,
+  "size_control_events": 190,
+  "size_control_draws": 500,
+  "training_views_per_run": 49568,
+  "total_waveform_views": 154476,
+  "main_parent_sources_per_run": 1800,
+  "auxiliary_train_parents_per_run": 4096,
+  "auxiliary_validation_parents_per_run": 512,
+  "data_reuse": "A/B parent sources and noise blocks, already explored; not a new blind test",
+  "C_amplitude": "one scalar shared by both images and every noise view of each physical source",
+  "distance_proposal": "uniform Euclidean volume conditional on weakest reference-noise optimal SNR in [8,40]",
+  "brighter_image_upper_SNR_cap": null,
+  "no_individual_image_target_SNR": true,
+  "preserves_image_amplitude_ratio_after_detector_response": true,
+  "not_full_GW_LMC_cosmological_population": true,
+  "trigger_method": "known catalogue time +/-0.25s; independent 8192-template IMRPhenomD bank; fixed top8 16-bin chi-square consistency rerank",
+  "waveform_injection": "IMRPhenomXPHM; 64 seconds raw at4096Hz; same raw data feed waveform and trigger paths",
+  "truth_used_for_trigger_template": false,
+  "synthetic_Gaussian_trigger_errors": false,
+  "full_BBH_PE": false,
+  "blind_GW_search": false,
+  "pilot": {
+    "source_parents": 54,
+    "events": 90,
+    "train_only": true,
+    "numerical_relative_tolerance": 1e-06,
+    "native_map_normalization_tolerance": 1e-05,
+    "raw_HPD90_minimum_per_run": 0.5,
+    "minimum_is_gross_failure_screen_not_posterior_calibration": true
+  },
+  "official_and_real_PE_used_for_model_selection": false,
+  "test_generation_after_FINAL_SCORE_FREEZE": true,
+  "sky_temperature": "validation-only source-weighted frozen grid from A/B",
+  "time": "identical frozen training-group 1D lookup from A/B, no 2D intensity channel",
+  "training": "same five component architectures and optimizer settings, retrain on C",
+  "disk_safety_gib": 25,
+  "dense_maps_persist": false,
+  "final_state": "HOLD_FOR_AUTHOR_REVIEW_NO_ADOPTION_NO_OVERWRITE"
+}

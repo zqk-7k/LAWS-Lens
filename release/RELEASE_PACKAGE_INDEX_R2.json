@@ -1,0 +1,100 @@
+{
+  "status": "HOLD_FOR_AUTHOR_REVIEW_NO_PUBLICATION",
+  "revision": "r2",
+  "public_upload": false,
+  "main_scientific_version": "GWLR-UC-01/C_PHYSICAL",
+  "paper_commit": "afb86ff5c8f212aec579592f0d7439f3f909d931",
+  "packages": [
+    {
+      "role": "code_models_scores",
+      "file": "LAWS_Lens_v1_DRAFT_code_models_scores_20260924.tar.gz",
+      "bytes": 1553229319,
+      "sha256": "313d9590b20fc4233101a252af69d0900cf941ac0995aa7c067cc4168272eae4",
+      "members": 2016,
+      "hash_failures": [],
+      "all_expected_present": true,
+      "origin": "r1 immutable archive, unchanged bytes"
+    },
+    {
+      "role": "paper_fpp_speed",
+      "file": "LAWS_Lens_v1_DRAFT_paper_fpp_speed_20260924.tar.gz",
+      "bytes": 271959862,
+      "sha256": "c9da814d1813089d630d4a4b33e57a6d27b48a3b1cc0c3330778c47bc40ef158",
+      "members": 1581,
+      "hash_failures": [],
+      "all_expected_present": true,
+      "origin": "r1 immutable archive, unchanged bytes"
+    },
+    {
+      "role": "validation_fixtures",
+      "file": "LAWS_Lens_v1_DRAFT_validation_fixtures_20260924.tar.gz",
+      "bytes": 584605728,
+      "sha256": "6a2033bc5a8398a0f1c78e3f12a7ba95cb6d8c0b1ad22f2cd284018d78da6228",
+      "members": 126,
+      "hash_failures": [],
+      "all_expected_present": true,
+      "origin": "r1 immutable archive, unchanged bytes"
+    },
+    {
+      "role": "release_audit",
+      "file": "LAWS_Lens_v1_DRAFT_release_audit_v2_20260924.tar.gz",
+      "bytes": 1008332,
+      "sha256": "bfa53aff9da50d498da86fc2a50a1c2312bacb9fe881f6021a2940d042726cb2",
+      "members": 143,
+      "hash_failures": [],
+      "all_expected_present": true,
+      "origin": "r1 immutable archive, unchanged bytes"
+    },
+    {
+      "role": "C_NATIVE_MAPS",
+      "file": "GWLR_UC_01_native_BAYESTAR_maps.tar.gz",
+      "bytes": 1789735382,
+      "sha256": "1287ef0c4a7850a2c3052a2c1c133cc89a96e65dbc16acdcf6f8e5d41ee90583",
+      "members": 2790,
+      "hash_failures": [],
+      "all_expected_present": true,
+      "origin": "r1 immutable archive, unchanged bytes"
+    },
+    {
+      "role": "WHEELHOUSE",
+      "file": "GWLR_UC01_verified_wheelhouse.tar",
+      "bytes": 4240568320,
+      "sha256": "cac552a805b14f52c83cefffd105612221ea5329fb3e4495d27f8b490e92e7ab",
+      "members": 118,
+      "hash_failures": [],
+      "all_expected_present": true,
+      "origin": "r1 immutable archive, unchanged bytes"
+    },
+    {
+      "role": "reproduction_extension_r2p1",
+      "file": "LAWS_Lens_v1_DRAFT_reproduction_extension_r2p1_20260924.tar.gz",
+      "bytes": 8161554,
+      "sha256": "73c490e9f13a77d82137406ea8e2f0b89b528c42240d0cd1d2d7a6f005c22767",
+      "members": 86,
+      "hash_failures": [],
+      "all_expected_present": true
+    },
+    {
+      "role": "test_real_fixtures_r2",
+      "file": "LAWS_Lens_v1_DRAFT_test_real_fixtures_r2_20260924.tar.gz",
+      "bytes": 192572531,
+      "sha256": "0fd5ff5189ae75a46c4dbfe8b011d58553e9ea247eabaeb4abd1016a0ba99dc2",
+      "members": 71,
+      "hash_failures": [],
+      "all_expected_present": true
+    }
+  ],
+  "total_bytes": 8641841028,
+  "entrypoint": "extension/README_CN.md",
+  "validation_report": "extension/reports/RELEASE_COMPLETION_R2_CN.md",
+  "delivered_archive_replay": "PASS",
+  "scientific_payload_changes": false,
+  "assembly_note": "Extract four r1 modular packages plus two r2 extensions together into a new empty directory. Maps and wheelhouse are separate artifacts.",
+  "superseded_not_recommended": [
+    {
+      "file": "LAWS_Lens_v1_DRAFT_reproduction_extension_r2_20260924.tar.gz",
+      "reason": "Recovery worker diagnostic import isolation failed; preserved, do not extract with r2p1."
+    }
+  ],
+  "delivered_archive_replay_report": "DELIVERED_EXTENSION_REPLAY.json"
+}

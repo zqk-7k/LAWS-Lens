@@ -1,0 +1,23 @@
+{
+  "state": "REAL_RANK_AND_PE_O4a",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "real-rank",
+    "--run",
+    "O4a",
+    "--split",
+    "validation",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/REAL_RANK_AND_PE_O4a_1789815269035990320.log",
+  "seconds": 112.13039785064757,
+  "utc": "2026-09-19T10:56:21.166455+00:00"
+}

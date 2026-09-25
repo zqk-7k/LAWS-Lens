@@ -1,0 +1,10 @@
+{
+  "kind": "Packaging dependency isolation, not scientific algorithm change",
+  "failure": "A spawned recovery worker imported legacy experiment globals while loading posterior map diagnostics.",
+  "fix": "Compile the exact frozen raster_probability/posterior_metrics function AST and two constants only. No numerical function edits.",
+  "scope": "The original signal generation, complete bank, matched-filter selection, BAYESTAR and map data stay unchanged.",
+  "guard": "Historical project reads remain blocked in spawned workers.",
+  "extra_check": "MOC UNIQ integer identifiers must match exactly; area, entropy and truth-coverage diagnostics also compared.",
+  "failed_archive_preserved": true,
+  "historical_results_modified": false
+}

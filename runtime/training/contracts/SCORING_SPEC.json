@@ -1,0 +1,160 @@
+{
+  "experiment": "GWLR-UC-01",
+  "scope": "Same C method and rules across O3/O4a/O4b; fit parameters run-specific",
+  "protocol_stage": "pre-test specification, not a claim that every adapter has been executed",
+  "primary_method": "NEW-SCORE-ONLY-POSITIVE-CANDIDATE",
+  "outer_old_new_score_mixture": false,
+  "short_encoder": {
+    "architecture": "InceptionAttentionEncoder1D: two channels, 4096 samples, 96D embedding",
+    "pretrain_epochs": 16,
+    "adapt_epochs": 60,
+    "auxiliary_weight": 0.25,
+    "q_loss_weight": 1.0,
+    "batch_size": 48
+  },
+  "waveform_components": [
+    "short cosine and predicted logMc/logitq",
+    "RAW-PHASE-SOURCE Rank-N-Contrast",
+    "ordered Mc response network",
+    "16s lowband multirate response network",
+    "conditional eta and chi_eff distributions given Mc"
+  ],
+  "calibration": {
+    "implementation_reference": "archived o4b_hl_nso_score_20260912.py; data-dependent paths/metadata require an audited adapter",
+    "public_PE_or_official_used": false,
+    "waveform_LR_global_validation_standardization": true,
+    "rowwise_catalog_standardization": false,
+    "short_mass_coefficients": [
+      0,
+      0.25,
+      0.5,
+      1,
+      2
+    ],
+    "short_q_coefficients": [
+      0,
+      0.25,
+      0.5,
+      1
+    ],
+    "KDE_bandwidth_scales": [
+      0.75,
+      1,
+      1.5
+    ],
+    "gamma": [
+      0,
+      0.125,
+      0.25,
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "beta": [
+      0,
+      0.0625,
+      0.125,
+      0.25,
+      0.5,
+      1,
+      2
+    ],
+    "tail_probability_reference": 0.05,
+    "increment_clip": [
+      -4,
+      4
+    ],
+    "out_of_support_positive_increment": 0,
+    "endpoint_occupancy_neutral_threshold": 0.25
+  },
+  "fusion": {
+    "grid": "simplex with step 0.05; normalize and deduplicate",
+    "primary_minimum_weight": 0.05,
+    "zero_allowed_supplementary": true,
+    "tie_anchor": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "tie_break": "closest normalized weight to common anchor, then fixed lexicographic ordering",
+    "validation_priority": [
+      "minimum F50",
+      "minimum F90",
+      "maximum average_precision",
+      "maximum R10",
+      "maximum R1"
+    ],
+    "per_arm_run_seed_validation_selection": true
+  },
+  "sky": {
+    "analysis_nside": 512,
+    "audit_nsides": [
+      256,
+      512,
+      1024
+    ],
+    "score": "log(Npix * sum(P_i * P_j)); probability mass, float64 accumulation",
+    "ordering": "native MOC is NESTED; use explicit NESTED-to-RING conversion at common pair-scoring entry",
+    "temperature_grid": [
+      1,
+      1.25,
+      1.5,
+      2,
+      2.5,
+      3,
+      4
+    ],
+    "temperature_selection": "validation-only source-weighted coverage/CVM; same selection rule for all deployments",
+    "maps_shared_across_model_seeds": true,
+    "native_MOC_only_persisted": true,
+    "trigger_inputs": "matched-filter complex SNR recovered from the same raw noisy strain"
+  },
+  "evaluation": {
+    "full_catalog_events": 450,
+    "size_control_events": 190,
+    "size_control_subcatalogs": 500,
+    "size_control_is_not_500_independent_experiments": true,
+    "primary_metrics": [
+      "R1",
+      "R10",
+      "average_precision",
+      "F50",
+      "F90",
+      "Top-B precision and false pairs"
+    ],
+    "top_B": [
+      10,
+      20,
+      50,
+      100,
+      200,
+      500
+    ],
+    "exact_ties": "expected random tie order for retrieval; include all pairs at score threshold for F50/F90; explicitly audit tie frequency",
+    "confidence": "source/lens-group and noise-parent cluster sensitivity intervals reported separately, not independent pair bootstrap",
+    "claim_scope": "controlled exploratory comparison, not population lensing rate or catalog FAP",
+    "unseen_test_claim": false
+  },
+  "real_audit": {
+    "budgets": [
+      10,
+      20,
+      50
+    ],
+    "PE_estimator_unified": "same Gaussian-KDE Bhattacharyya integral and sample-standard-deviation D for all runs",
+    "parameters": [
+      "detector_frame_chirp_mass",
+      "mass_ratio",
+      "chi_eff",
+      "apparent_luminosity_distance"
+    ],
+    "distance_excluded_from_Dmax": true,
+    "public_PE_manifest_group_frozen": true,
+    "official_unavailable": "NA, never zero",
+    "Hanabi_rerun": false,
+    "no_real_results_used_for_reselection": true
+  },
+  "acceptance": "Deliver C regardless of improvement; report limitations; no automatic adoption",
+  "final_state": "HOLD_FOR_AUTHOR_REVIEW_NO_ADOPTION_NO_OVERWRITE"
+}

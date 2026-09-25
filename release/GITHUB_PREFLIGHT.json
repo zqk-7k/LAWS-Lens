@@ -1,0 +1,15 @@
+{
+  "status": "PASS_FOR_PRIVATE_CODE_UPLOAD",
+  "frozen_software_files_sha256_verified": 1263,
+  "frozen_python_files_parsed_with_cpython_3_12": 1047,
+  "syntax_check": "PASS under required CPython 3.12.3; legacy invalid-escape SyntaxWarnings retained",
+  "older_python_note": "One file uses Python 3.12 f-string syntax and does not parse with the local older Python; no source was changed",
+  "secret_scan": "No unresolved credential findings in the upload subset",
+  "reviewed_scanner_literals": [
+    "runtime/completion/scripts/uab_delivery.py",
+    "uploaded_snapshot/local_updates/0922_GWLR_TAIL02诊断/extracted/gwlr_tail02_20260922T113500Z_r2/scripts/verify_package.py"
+  ],
+  "scientific_code_changed": false,
+  "publication_approval": "PENDING_AUTHOR",
+  "license_approval": "PENDING_AUTHOR_AND_THIRD_PARTY_REVIEW"
+}

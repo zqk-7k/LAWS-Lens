@@ -1,0 +1,43 @@
+{
+  "code": "GWLR-UC-01",
+  "primary_events": 450,
+  "size_control_events": 190,
+  "subcatalogs": 500,
+  "independent_subcatalogs": false,
+  "bootstrap_replicates": 1000,
+  "inference": "source and noise cluster sensitivity intervals, not independent pairs",
+  "primary_metrics": [
+    "R1",
+    "R10",
+    "average_precision",
+    "F50",
+    "F90",
+    "TopB precision and false burden"
+  ],
+  "real_budgets": [
+    10,
+    20,
+    50,
+    100
+  ],
+  "official_O4b": "NA, not zero",
+  "new_Hanabi": false,
+  "resolution": {
+    "coarse": 256,
+    "analysis": 512,
+    "reference": 1024,
+    "reference_scope": "all pairs",
+    "dense_persistence": false,
+    "diagnostic_only": true
+  },
+  "sky_calibration": "validation-only source-weighted temperature grid; no test retuning",
+  "limitations": [
+    "conditional detectable-source population, not cosmological GW-LMC population",
+    "aligned-spin template approximation for precessing/higher-mode injections",
+    "catalogue-time follow-up, not blind detection with calibrated FAR",
+    "six evaluation noise parents per run",
+    "public real PE can use Virgo; injection maps are HL",
+    "historical A/B data already inspected; no new blind confirmation claim"
+  ],
+  "final_state": "HOLD_FOR_AUTHOR_REVIEW_NO_ADOPTION_NO_OVERWRITE"
+}

@@ -1,0 +1,23 @@
+{
+  "state": "rnc_O3_C_PHYSICAL_2026091721",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/train_components_r2.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "rnc",
+    "--run",
+    "O3",
+    "--arm",
+    "C_PHYSICAL",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/rnc_O3_C_PHYSICAL_2026091721_1789792179991520956.log",
+  "seconds": 514.5536966491491,
+  "utc": "2026-09-19T04:38:14.545282+00:00"
+}

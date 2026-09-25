@@ -1,0 +1,23 @@
+{
+  "state": "INFER_O4a_2026091721_development",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "infer",
+    "--run",
+    "O4a",
+    "--split",
+    "development",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/INFER_O4a_2026091721_development_1789800782886583875.log",
+  "seconds": 31.75688928179443,
+  "utc": "2026-09-19T06:53:34.643537+00:00"
+}

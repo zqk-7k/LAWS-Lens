@@ -1,0 +1,164 @@
+{
+  "state": "PASS",
+  "post_freeze_read_only": true,
+  "script_sha256": "b9f39f2395ce0608c884b28b10bb50f46e4f35f6ba1375e966d4903f75ce7a8f",
+  "events": 2700,
+  "raw_files_hash_checked": 2700,
+  "native_maps_hash_checked": 2700,
+  "scope": "all validation/test products; does not add a new coverage or adoption gate",
+  "limitations": [
+    "provenance and numerical identities, not independent full BBH PE",
+    "does not establish nominal posterior coverage or astrophysical representativeness"
+  ],
+  "records": [
+    {
+      "run": "O3",
+      "split": "validation",
+      "events": 450,
+      "source_parents": 270,
+      "noise_parents": 6,
+      "maximum_relative_amplitude_identity_error": 4.440892098500626e-16,
+      "maximum_map_normalization_error": 2.4424906541753444e-14,
+      "matched_filter_checks": {
+        "matched_filter_relative": 1.7804210560383755e-11,
+        "self_injection_relative": 2.22158094583995e-14,
+        "horizon_quadrature_relative": 2.220446049250313e-16
+      },
+      "all_raw_and_MOC_hashes_match": true,
+      "same_amplitude_and_distance_within_source": true,
+      "same_noisy_strain_provenance": true,
+      "template_selection_uses_truth": false,
+      "fallback_events": 0,
+      "events_manifest_sha256": "665b10fdfc75c756bb0460cba925529ba0305f65c70adf6a90ef68904e145597"
+    },
+    {
+      "run": "O3",
+      "split": "test",
+      "events": 450,
+      "source_parents": 270,
+      "noise_parents": 6,
+      "maximum_relative_amplitude_identity_error": 4.440892098500626e-16,
+      "maximum_map_normalization_error": 1.9984014443252818e-14,
+      "matched_filter_checks": {
+        "matched_filter_relative": 6.742121249229831e-12,
+        "self_injection_relative": 2.3701919586850633e-14,
+        "horizon_quadrature_relative": 2.220446049250313e-16
+      },
+      "all_raw_and_MOC_hashes_match": true,
+      "same_amplitude_and_distance_within_source": true,
+      "same_noisy_strain_provenance": true,
+      "template_selection_uses_truth": false,
+      "fallback_events": 0,
+      "events_manifest_sha256": "ad47aeca8fda0960d48e9b09180af5b79ed9e65213183e98f46652a02abc6967"
+    },
+    {
+      "run": "O4a",
+      "split": "validation",
+      "events": 450,
+      "source_parents": 270,
+      "noise_parents": 6,
+      "maximum_relative_amplitude_identity_error": 4.440892098500626e-16,
+      "maximum_map_normalization_error": 1.865174681370263e-14,
+      "matched_filter_checks": {
+        "matched_filter_relative": 3.5170778598642938e-12,
+        "self_injection_relative": 1.7496820077769744e-14,
+        "horizon_quadrature_relative": 4.440892098500626e-16
+      },
+      "all_raw_and_MOC_hashes_match": true,
+      "same_amplitude_and_distance_within_source": true,
+      "same_noisy_strain_provenance": true,
+      "template_selection_uses_truth": false,
+      "fallback_events": 0,
+      "events_manifest_sha256": "505ff88b821ae22718da1be000f0e031ed1cea868953b42c4358c18339a46104"
+    },
+    {
+      "run": "O4a",
+      "split": "test",
+      "events": 450,
+      "source_parents": 270,
+      "noise_parents": 6,
+      "maximum_relative_amplitude_identity_error": 3.3306690738754696e-16,
+      "maximum_map_normalization_error": 2.1760371282653068e-14,
+      "matched_filter_checks": {
+        "matched_filter_relative": 5.830505689307752e-12,
+        "self_injection_relative": 2.093535888907547e-14,
+        "horizon_quadrature_relative": 4.440892098500626e-16
+      },
+      "all_raw_and_MOC_hashes_match": true,
+      "same_amplitude_and_distance_within_source": true,
+      "same_noisy_strain_provenance": true,
+      "template_selection_uses_truth": false,
+      "fallback_events": 0,
+      "events_manifest_sha256": "79d7a25baccfa8e9b0a9ca27f24b3d365b4d9f25afc36d5c42daef323738a28a"
+    },
+    {
+      "run": "O4b",
+      "split": "validation",
+      "events": 450,
+      "source_parents": 270,
+      "noise_parents": 6,
+      "maximum_relative_amplitude_identity_error": 4.440892098500626e-16,
+      "maximum_map_normalization_error": 1.84297022087776e-14,
+      "matched_filter_checks": {
+        "matched_filter_relative": 3.3796924335484543e-12,
+        "self_injection_relative": 1.6776490514158018e-14,
+        "horizon_quadrature_relative": 3.3306690738754696e-16
+      },
+      "all_raw_and_MOC_hashes_match": true,
+      "same_amplitude_and_distance_within_source": true,
+      "same_noisy_strain_provenance": true,
+      "template_selection_uses_truth": false,
+      "fallback_events": 0,
+      "events_manifest_sha256": "8a3bc6e6f900397971f72d1d06199e6cacc5d9aa5bbc2764380c59ec7d636dba"
+    },
+    {
+      "run": "O4b",
+      "split": "test",
+      "events": 450,
+      "source_parents": 270,
+      "noise_parents": 6,
+      "maximum_relative_amplitude_identity_error": 4.440892098500626e-16,
+      "maximum_map_normalization_error": 1.5987211554602254e-14,
+      "matched_filter_checks": {
+        "matched_filter_relative": 5.885248897301039e-12,
+        "self_injection_relative": 1.6840501689408323e-14,
+        "horizon_quadrature_relative": 2.220446049250313e-16
+      },
+      "all_raw_and_MOC_hashes_match": true,
+      "same_amplitude_and_distance_within_source": true,
+      "same_noisy_strain_provenance": true,
+      "template_selection_uses_truth": false,
+      "fallback_events": 0,
+      "events_manifest_sha256": "eabac0b748ff9e81d3b2d2e1da7e1f5e18b3c531648a23cfa13bcb795dc33551"
+    }
+  ],
+  "isolation": [
+    {
+      "run": "O3",
+      "validation_test_intersections": {
+        "event_uid": [],
+        "source_uid": [],
+        "global_source_id": [],
+        "noise_parent_uid": []
+      }
+    },
+    {
+      "run": "O4a",
+      "validation_test_intersections": {
+        "event_uid": [],
+        "source_uid": [],
+        "global_source_id": [],
+        "noise_parent_uid": []
+      }
+    },
+    {
+      "run": "O4b",
+      "validation_test_intersections": {
+        "event_uid": [],
+        "source_uid": [],
+        "global_source_id": [],
+        "noise_parent_uid": []
+      }
+    }
+  ]
+}

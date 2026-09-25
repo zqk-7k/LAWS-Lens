@@ -1,0 +1,418 @@
+{
+  "utc": "2026-09-19T07:37:26.838195+00:00",
+  "files": [
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091721/selected.pt",
+      "sha256": "89cfcd8bd0850d7f1c13709e78dd1cdf0554d15ccc3f8486b23f1ab463f5c00b"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091722/selected.pt",
+      "sha256": "063f6bed7a56ac8029836f6c0af274a1a056189aec761102b70b583b69b40b62"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091723/selected.pt",
+      "sha256": "d0f27295b71585c31879eed22469cbd448303bda03bac0a85c1558ae6cddb4fc"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/MULTIRATE/gwtc5/seed_2026091721/selected.pt",
+      "sha256": "f8ddb846eb534f934c925bfa6933f40f8902151b571b04ed4255fb556f76f6c9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/MULTIRATE/gwtc5/seed_2026091722/selected.pt",
+      "sha256": "bca39bd7de31c2dc2db51498d3a712e5628969f61406e581b16163a20141f686"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/MULTIRATE/gwtc5/seed_2026091723/selected.pt",
+      "sha256": "8ddeb1e929532d996a1c1ad23f502b3a92cc9ed76ae6b0a8e16def9dd419e84d"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/short_encoder/seed_2026091721/validation_selected_model.pt",
+      "sha256": "a89625fb4b0ad75201e48184dbb298c27ec17a714ad062127c57b00b770f08ea"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/short_encoder/seed_2026091722/validation_selected_model.pt",
+      "sha256": "c57e38ea9fc0ccd5a3c5aff363c5ce3e170a1b46cf6031389607a2d621d4e3ec"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/models/short_encoder/seed_2026091723/validation_selected_model.pt",
+      "sha256": "273af522bb59307bf14f1167cbe5ec41638a72641f44114afed11ff088e7eff9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/ordered_mass_predictor/models/gwtc5/seed_2026091721/validation_selected_model.pt",
+      "sha256": "97cd4ce1d36771a450d0e063dd92ee98fe606d8637e266db2c712ecadcc261be"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/ordered_mass_predictor/models/gwtc5/seed_2026091722/validation_selected_model.pt",
+      "sha256": "3d685ff2ebd95741b4404f077f9bf23ca1864c0eb322795e6e8a6d8b373f8c20"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/ordered_mass_predictor/models/gwtc5/seed_2026091723/validation_selected_model.pt",
+      "sha256": "4433a650980bd561a922b0d6a9509a52bd3cf5570842ef04638d7d4edb4a1407"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091721/validation_selected_model.pt",
+      "sha256": "c82965d8cee33d481b0f0742701df6b6aa8be8fdab0ce180b1ffc3a9ef7c9779"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091722/validation_selected_model.pt",
+      "sha256": "6859d42c2b49dfb9bd69d5a65da1db07c5275d936c418bf2b7f289044f38a486"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O3/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091723/validation_selected_model.pt",
+      "sha256": "39db7183c469c6729480d32ef7115c3bbd3d7c16d0a3911816a60c1099568d43"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091721/selected.pt",
+      "sha256": "4e37a0641615dfdc8de88ac9fd3755aa4d326946b3a4a8c868968a9e8d10c00a"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091722/selected.pt",
+      "sha256": "a9a1c6f30a63c2140f98ccac1934cd4a086d362355ce323a5cd4c23b76e644db"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091723/selected.pt",
+      "sha256": "7a2b4657650e84ee7542f58c35a84a9ea2553f3d1f953a4f5404a5d9f82523c9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/MULTIRATE/gwtc5/seed_2026091721/selected.pt",
+      "sha256": "f6a3e9f9cab16c01672669851e680eef8213ea9afa2b52965672b79ff2b6a89b"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/MULTIRATE/gwtc5/seed_2026091722/selected.pt",
+      "sha256": "a4947a548ee5e475e42dc5fd56f6e00b7e435d34fbd2acfcc22fe8605b20f334"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/MULTIRATE/gwtc5/seed_2026091723/selected.pt",
+      "sha256": "e2a4983c5a2140358ecfd9a5a47b098d69d30df044c9c66a516ee1ac60b75701"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/short_encoder/seed_2026091721/validation_selected_model.pt",
+      "sha256": "6922bd70d527f557f75fb6ac2749c01e400140d82deedb99f59936021b0a5006"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/short_encoder/seed_2026091722/validation_selected_model.pt",
+      "sha256": "f2a6da78c7ddf98059bb2cc7557a6438ec078188dfe9ac0eb4236a01dfd39fcd"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/models/short_encoder/seed_2026091723/validation_selected_model.pt",
+      "sha256": "7e6c19a5c1af8c272f50cbea59d820c39191104f32a83e9cbccdf1b62d12ba84"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/ordered_mass_predictor/models/gwtc5/seed_2026091721/validation_selected_model.pt",
+      "sha256": "760787bc2caf8c84fb4b01eb8835212c089d95dc839ca35c56a523e5deb4644b"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/ordered_mass_predictor/models/gwtc5/seed_2026091722/validation_selected_model.pt",
+      "sha256": "b7637317403d219019ed1c457fded023edc00aa7a8f4ce7d127f603d87d65c94"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/ordered_mass_predictor/models/gwtc5/seed_2026091723/validation_selected_model.pt",
+      "sha256": "fbd3c64b525c2c194e0b756c30eb64117f0c55f6c3abd3260226169a18b6e0cb"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091721/validation_selected_model.pt",
+      "sha256": "626b2c63ce07f65f035f3a4672b72f2ba56f3d16ac3578bd7560ed59e468743f"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091722/validation_selected_model.pt",
+      "sha256": "7b26e8d585d0bb9801ced227c0e5f34e269777ed46469445272030e0bc5d9f54"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4a/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091723/validation_selected_model.pt",
+      "sha256": "1ceb77aa89d062e4683bde91ea3df0c9f1fda4754ed3f24decefb52232eda142"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091721/selected.pt",
+      "sha256": "e1a5fbe0a4446865e2c60de23ad11a220043815b6c6b249a5e7ab015b51e6eb0"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091722/selected.pt",
+      "sha256": "f488c682ea2a207040fdfcb66ffd864b14174210f5dc35dd76c5c9e5f1d05bef"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/CONDITIONAL-ETA-CHI/gwtc5/seed_2026091723/selected.pt",
+      "sha256": "5e6260f427c2285190ca6732c68d8967e52bde3267799526787cf99963e4ac5e"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/MULTIRATE/gwtc5/seed_2026091721/selected.pt",
+      "sha256": "d9cbfb6f7debfdc507e6b3cad1cfb7504380b10a57c971aa99fdd1ea6d8162e9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/MULTIRATE/gwtc5/seed_2026091722/selected.pt",
+      "sha256": "4855f7ff38d93bcab75506932034c42837c9bbaa9c71330e3f8c10459aa1d663"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/MULTIRATE/gwtc5/seed_2026091723/selected.pt",
+      "sha256": "8c0b0865ca0626ca425b81b7a4226690867548c5750b9e9f8c5113a56e5366c9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/short_encoder/seed_2026091721/validation_selected_model.pt",
+      "sha256": "f084b2e14630cd942061830f139dddd6869b081ef79139a0f6922e2032f30ecf"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/short_encoder/seed_2026091722/validation_selected_model.pt",
+      "sha256": "de10f852ad2de84c0beb65bb3932cb3ecebee743af39b2bd7256bddee7af16c4"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/models/short_encoder/seed_2026091723/validation_selected_model.pt",
+      "sha256": "4331777e559ad720ebebda03cfb10186df11dae6af89141e8fee57e5555506d5"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/ordered_mass_predictor/models/gwtc5/seed_2026091721/validation_selected_model.pt",
+      "sha256": "75f0f80abf8c84d3e5e926356abc151b55cf2be5a9134a637bec315fbda10ef7"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/ordered_mass_predictor/models/gwtc5/seed_2026091722/validation_selected_model.pt",
+      "sha256": "52558255618b257a7b554ec01640bda27318e84939609b2fce8cdf5c4f253f25"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/ordered_mass_predictor/models/gwtc5/seed_2026091723/validation_selected_model.pt",
+      "sha256": "3a9d957f952b619b73d7fad7ad0a536d55989fb025b720850287d0e43982a6af"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091721/validation_selected_model.pt",
+      "sha256": "29ea848a4300928da5b47b9ecf4dbdc040c60b59f893ea2c246bfe7df569cf68"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091722/validation_selected_model.pt",
+      "sha256": "803832d20edadfc7737d614722b183853d995fece59e17b575da83833676bfe3"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/arms/C_PHYSICAL/O4b/rankncontrast_component_v2/models/RAW-PHASE-SOURCE/gwtc5/seed_2026091723/validation_selected_model.pt",
+      "sha256": "7a0dbda479f311ec80a77ed313d50ed6ad5e3229838b51318246a8177f83e4e8"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/contracts/COMPLETION_ADAPTER_CONTRACT.json",
+      "sha256": "a43514e20abb4ef1bcdd08061b6aad353ec79e4b22e038f7e7b4a727582529ac"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/contracts/EVALUATION_COMPLETION_CONTRACT.json",
+      "sha256": "1a554ca9d06aeefc4c8f923d356792a582e033704d902d5e7d2341e6d0bc2916"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/contracts/REAL_INPUT_MANIFEST.json",
+      "sha256": "ff15bb72fef0b07cc1291478a4bc1fcdb6bc6e58f2012095102532f854451a80"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/contracts/REAL_INPUT_MANIFEST_FREEZE.json",
+      "sha256": "76e23399d3ff0a0f810317307d5c1599dad55047ef5f92b34d31e29363455994"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091721/FREEZE.json",
+      "sha256": "fbd4cc68119850c992a636d7c91230098496257c8a2b406b86662a092c798c68"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091721/SELECTED.json",
+      "sha256": "6ecb415a3996beae8139ce38e243447d6ca84146896e536aecb28cb06f286b86"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091721/validation_scored.parquet",
+      "sha256": "2e6df70909b280e45721e26c4edc5b2a4de9b973eae65f6cfd1b89d0dd12bc35"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091722/FREEZE.json",
+      "sha256": "98ee8fdacd8c3e2658d4b3cab30e2273edc56d9deec7f226cc1665a64d02dfd4"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091722/SELECTED.json",
+      "sha256": "86a98daae75668f3ad5724a09dc3f019cb880ae2ae356890092385ddbd41a56e"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091722/validation_scored.parquet",
+      "sha256": "27e1a86905bc7a743598271fe45bb8d1febe3ef8c097b10bd91d17220f0a8b2c"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091723/FREEZE.json",
+      "sha256": "15f5d439e8d36e4e0e896cca5f6f7a148770bb541afe472fef952f9b7448add5"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091723/SELECTED.json",
+      "sha256": "137ea8fc1f5e92a76d663c6547113c88f7231da9fdf127b95d5feedadbe298c4"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O3/C_PHYSICAL/calibration/score/seed_2026091723/validation_scored.parquet",
+      "sha256": "a42058658448c5b840338d58f420d6fff327ea518219ab8ee20776d798cb2f2a"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091721/FREEZE.json",
+      "sha256": "934020fcef242a2e15aac9a9634143054cb0b9a0195a0f6ee2f8750fd3cdab63"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091721/SELECTED.json",
+      "sha256": "9e1433737529f973a92a1bbf7002faaead30739342660ce84af9715cd3038722"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091721/validation_scored.parquet",
+      "sha256": "eddc667e26d702c587a297f7b6e23ffe29dc7ad81e673f12d0f2bd3b46db9ef9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091722/FREEZE.json",
+      "sha256": "0eb1966c30db494f0384e1db960a686b977cf442f2c83aca36ef37cfdc9bfaf6"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091722/SELECTED.json",
+      "sha256": "b4407c20faca6feb0748e8d575e1a338bf35a1b23be97d33865a842fe6d855f7"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091722/validation_scored.parquet",
+      "sha256": "8fcee8a173f6762cfd685ac049877a7ad1d625189277b0826a287fd0bb83d4ec"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091723/FREEZE.json",
+      "sha256": "3de30e9e21d4f41942cfd0c168cc84908778d3d98aeca62e6741f88d4d2bfe5e"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091723/SELECTED.json",
+      "sha256": "537664f05aeba8b6e4fdaae70acfc742b6d49b0575cbba8587abec55cd59362f"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4a/C_PHYSICAL/calibration/score/seed_2026091723/validation_scored.parquet",
+      "sha256": "976a6a5888266135eaf014e15ab7b0939c40c9d20dbb263fb7a4ea8519512701"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091721/FREEZE.json",
+      "sha256": "5ed79ab69b023b2914fbc30b5efb2fee3c0d591c2e89a37684fca752e9a47c65"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091721/SELECTED.json",
+      "sha256": "1f7fc58e7fe982d5ea6cdb1ac568bfe3630ae40ea8788938cb584641371b1e8a"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091721/validation_scored.parquet",
+      "sha256": "0ba70fdadd8f33a090aed30d18d4a1c2138e07da5ef110161c0835f2dbeba948"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091722/FREEZE.json",
+      "sha256": "617d776b8c92693cba745c17b3faffa8de51da9525e7b5a4c235f8e5f57a594a"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091722/SELECTED.json",
+      "sha256": "51567fc2e0e173a1018adb463e5b44f3f9ea84d87290116b482b572c6b98c226"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091722/validation_scored.parquet",
+      "sha256": "a2c354c4f0db958f81478653b94d90725f7a37c491c8e33a021918ca6b5acc28"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091723/FREEZE.json",
+      "sha256": "e4683c8bfbbfaecb1c2329705473c19b6071fbedeba421f9794048203497fc48"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091723/SELECTED.json",
+      "sha256": "e6e94b99c7683ef4d23f2055d0279969db50c5d9d42738c94d0c9a8e097958e0"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/deployments/O4b/C_PHYSICAL/calibration/score/seed_2026091723/validation_scored.parquet",
+      "sha256": "4cd2c9ca9cacb6aeae5cabbf68fa1e6f94f4f5e5f87e34dd681f47a2714de834"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/maps/O3/C_PHYSICAL/validation/TEMPERATURE_SELECTED.json",
+      "sha256": "30c6998098606024231c1b1603c1f5139a8c574608d71266c348ce0264ac46ba"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/maps/O4a/C_PHYSICAL/validation/TEMPERATURE_SELECTED.json",
+      "sha256": "30c6998098606024231c1b1603c1f5139a8c574608d71266c348ce0264ac46ba"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/maps/O4b/C_PHYSICAL/validation/TEMPERATURE_SELECTED.json",
+      "sha256": "30c6998098606024231c1b1603c1f5139a8c574608d71266c348ce0264ac46ba"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/legacy_completion.py",
+      "sha256": "5b66c528b21701ef1699fb09ec4504470940a3278995f6fa08b6f04f99b16c8f"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_completion.py",
+      "sha256": "7513e4b1c6faad8abe4b5aa7c4e873c2d294d4502169d2d0bff7f94ae2945839"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_controller.py",
+      "sha256": "2a1eaabc5328fe24039ce09e2c22be6afa96acbc5febad095e04df5a2c55c10f"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_delivery.py",
+      "sha256": "cedcc381b31a68c60c230ffe6bb4e15223a6ee7f115ebab4634446c0e4081437"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_delivery_repaired.py",
+      "sha256": "388d75fdc7da48a5f6de79fe2ea8626b061c03ef3a107e6188f4f28a556cc77c"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_diagnostics.py",
+      "sha256": "2bb1c3f7856c2906ea9767836ae2617472cb9081d5950baeb2ad77ab7f1a0d70"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_evaluate.py",
+      "sha256": "0c91b818bc775617d5df1cb2295b3e7ad280dd30675aa5de37d27cd97fa56fa7"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_independent_check.py",
+      "sha256": "59b70620ba1b8842f0b0d3cf1c72166e008f66784e811d67116b583162098b09"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_inference_prepare.py",
+      "sha256": "942ee850d60dd045160c353445d4b67fc03106286800ae735e0b9b7e7eae962a"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_rank_resolution_audit.py",
+      "sha256": "afd568d934bd18ac8e9c48fc6a0db232766f96bd3625f6a0222bbfe08b3172e9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_real.py",
+      "sha256": "4e257574a67fab215b19228d8a8d1e7942114415cabf5b18e2302ec610b5272a"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_resource_watch.py",
+      "sha256": "1bf15ce07635cde8e4e111573d8c8d1d6832579e44513c5c5e02cc306ae0e065"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_scope_audit.py",
+      "sha256": "2bcce9ddfa13232e92eb3e3daa6b043527d1832b4376a85a27b91928b56c6d02"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_scoring.py",
+      "sha256": "fcf6715ece8eb1d8ccbbd69947dbb4774d56103134fd498cf2473cf64005d073"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_summary_delivery.py",
+      "sha256": "6bac58b618dce2db5c3b76fc30c86d7e9290bf5bad1f66a3ba3dfac2eea78b9b"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion/scripts/uab_validation_prepare.py",
+      "sha256": "051d2686b7a7a4bd8d91e27fda9ad2d171e27fae0386ec28bd14593468a58bf2"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/contracts/ANALYSIS_CONTRACT.json",
+      "sha256": "50451fc00e88762a019f4143bc04250e41d31b6dcd71c22cb8c58d064697f7d2"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/contracts/SCORING_SPEC.json",
+      "sha256": "04fc1014a6384ecfef35820266f1f943906c07f72058569c7d93ee8c2e251642"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/plans/source_population.parquet",
+      "sha256": "aab956340a85026b3fdda38b9fb8a28d1fc1e3fc262da9c5db8096f8fd7ea6aa"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/shared_time/O3/lookup.json",
+      "sha256": "5b1f49f167c9dea90391717ac9bf12d74264dd547e4618d04edf1e4af95085a9"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/shared_time/O4a/lookup.json",
+      "sha256": "e79a900ee8112b14c72c722c59a9d7ae707fb28af604c60103288a2b53a09f08"
+    },
+    {
+      "path": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/shared_time/O4b/lookup.json",
+      "sha256": "669589e5ecd8a1f8048145b8dc10e7a761623997b3eceafde8e333f46e7cce63"
+    }
+  ],
+  "state": "ALL_THREE_RUNS_C_FROZEN_BEFORE_C_TEST",
+  "continuation_directory": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/completion",
+  "test_previously_opened": true,
+  "real_results_used": false,
+  "model_training_complete": true,
+  "seed_count": 3,
+  "deployments": 3,
+  "C_test_scores_used_for_selection": false,
+  "note": "Historical A/B parents already examined; C scores not yet evaluated"
+}

@@ -1,0 +1,23 @@
+{
+  "state": "C_POSTFREEZE_DIAGNOSTICS",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/c_finish.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--action",
+    "diagnostics",
+    "--run",
+    "O3",
+    "--split",
+    "validation",
+    "--seed",
+    "2026091721"
+  ],
+  "exit_code": 0,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/C_POSTFREEZE_DIAGNOSTICS_1789817806951936315.log",
+  "seconds": 7.431562930345535,
+  "utc": "2026-09-19T11:36:54.383567+00:00"
+}

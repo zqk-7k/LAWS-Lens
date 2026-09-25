@@ -1,0 +1,23 @@
+{
+  "state": "FEATURES_O3_validation",
+  "command": [
+    "/root/autodl-tmp/gw-catalog/.venvs/v10p1_pe/bin/python",
+    "-B",
+    "-u",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/scripts/train_components.py",
+    "--root",
+    "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1",
+    "--stage",
+    "features",
+    "--run",
+    "O3",
+    "--arm",
+    "C_PHYSICAL",
+    "--split",
+    "validation"
+  ],
+  "exit_code": 1,
+  "log": "/root/autodl-tmp/gw-catalog/results/gwlr_unified_c_physical_20260918T134500Z_r1/logs/FEATURES_O3_validation_1789739510964118311.log",
+  "seconds": 3.0355339236557484,
+  "utc": "2026-09-18T13:51:53.999753+00:00"
+}

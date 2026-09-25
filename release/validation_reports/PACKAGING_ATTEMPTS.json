@@ -1,0 +1,7 @@
+{
+  "initial_model_numerics": "PASS",
+  "initial_read_guard": "Blocked attempts to inspect the r1 launcher script because the launcher itself was outside the r2 root.",
+  "repair": "Run the unchanged portable launcher from r2, rerun all model predictions in a new directory.",
+  "scientific_change": false,
+  "previous_attempt_preserved": true
+}

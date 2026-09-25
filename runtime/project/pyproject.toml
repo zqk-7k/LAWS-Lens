@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gw-catalog"
+version = "0.1.0"
+description = "Match-first gravitational-wave lensing catalog retrieval experiments"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "h5py>=3.10",
+  "pyyaml>=6.0",
+  "pyarrow>=14.0",
+  "pytest>=8.0",
+  "torch>=2.0",
+  "scipy>=1.10",
+  "networkx>=3.0",
+  "scikit-learn>=1.4",
+  "openpyxl>=3.1"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["matchgw*"]

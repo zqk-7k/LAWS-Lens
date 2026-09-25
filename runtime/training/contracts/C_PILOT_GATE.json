@@ -1,0 +1,41 @@
+{
+  "state": "PASS",
+  "checks": [
+    {
+      "run": "O3",
+      "events": 30,
+      "raw_HPD90_coverage": 0.5666666666666667,
+      "raw_HPD90_gross_failure_screen_pass": true,
+      "filter_seconds_p50": 73.2047789376229,
+      "filter_seconds_p90": 76.98985955622047,
+      "reweighted_snr_median": 11.645436648789975,
+      "bank_coverage_certified": false,
+      "posterior_calibration_certified": false
+    },
+    {
+      "run": "O4a",
+      "events": 30,
+      "raw_HPD90_coverage": 0.8,
+      "raw_HPD90_gross_failure_screen_pass": true,
+      "filter_seconds_p50": 71.2332796016708,
+      "filter_seconds_p90": 73.28294185549021,
+      "reweighted_snr_median": 10.203743170262975,
+      "bank_coverage_certified": false,
+      "posterior_calibration_certified": false
+    },
+    {
+      "run": "O4b",
+      "events": 30,
+      "raw_HPD90_coverage": 0.8666666666666667,
+      "raw_HPD90_gross_failure_screen_pass": true,
+      "filter_seconds_p50": 68.73923262953758,
+      "filter_seconds_p90": 71.51626872979105,
+      "reweighted_snr_median": 11.434808270992693,
+      "bank_coverage_certified": false,
+      "posterior_calibration_certified": false
+    }
+  ],
+  "seconds": 662.4239346310496,
+  "limited_engineering_gate": true,
+  "not_scientific_acceptance_of_the_full_experiment": true
+}

@@ -1,0 +1,17 @@
+{
+  "code": "GWLR-UC-01",
+  "same_NEW_SCORE_ONLY_scoring": true,
+  "old_new_mixture": false,
+  "changed_sky_trigger_inputs": true,
+  "common_system_amplitude": true,
+  "model_seeds": [
+    2026091721,
+    2026091722,
+    2026091723
+  ],
+  "arms": [
+    "C_PHYSICAL"
+  ],
+  "real_PE_used_for_selection": false,
+  "no_automatic_method_adoption": true
+}
