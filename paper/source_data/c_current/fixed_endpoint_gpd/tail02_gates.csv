@@ -1,0 +1,13 @@
+﻿run,model,fits_and_support,shape_stability,threshold_stability,deletion_stability,heldout_prediction,independent_noise_support,new_blind_validation,real_domain_transfer,threshold_factor,deletion_factor,shape_range,publication_pass,fit_noise_parents,check_noise_parents
+O3,2026091721,True,True,True,True,True,False,False,False,1.664652012293876,1.153505931407695,0.28231923958900257,False,6,6
+O3,2026091722,True,True,True,True,True,False,False,False,1.6493031376976133,1.1715746405413487,0.351538771161555,False,6,6
+O3,2026091723,True,True,True,True,True,False,False,False,1.7575162987878665,1.2098356236338657,0.3149412745027338,False,6,6
+O3,mean_S,True,True,True,True,True,False,False,False,1.6381006803139928,1.1696257275247093,0.3098879345167312,False,6,6
+O4a,2026091721,True,True,True,True,True,False,False,False,1.2148963675460445,1.216460340286428,0.14070600072347889,False,6,6
+O4a,2026091722,True,True,True,True,True,False,False,False,1.417097634719745,1.0886944791767892,0.3028287419998207,False,6,6
+O4a,2026091723,True,True,True,True,True,False,False,False,1.1907907134617317,1.244642563248324,0.12725649695965324,False,6,6
+O4a,mean_S,True,True,True,True,True,False,False,False,1.0875483171765001,1.1606875847476896,0.0691248154554831,False,6,6
+O4b,2026091721,True,True,True,True,True,False,False,False,1.535538829089222,1.2397857474259384,0.19045255798696448,False,6,6
+O4b,2026091722,True,True,True,True,True,False,False,False,1.1637681613761106,1.1085306512565751,0.07505729479947743,False,6,6
+O4b,2026091723,True,True,True,True,True,False,False,False,1.6744107538021655,1.130791555139525,0.2702012467196304,False,6,6
+O4b,mean_S,True,True,True,True,True,False,False,False,1.4631326298445855,1.1701748580805487,0.17470500427280206,False,6,6

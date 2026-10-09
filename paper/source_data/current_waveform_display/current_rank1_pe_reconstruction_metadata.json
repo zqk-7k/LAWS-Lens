@@ -1,0 +1,104 @@
+{
+  "description": "Event-specific noise-free plus-polarization morphology guides from maximum-likelihood PE samples",
+  "implementation_sha256": "58ac242de37ed5ebe679206278d9b5fe90bc5eb1b5aefc6a49f0371fbc21c63a",
+  "ripplegw": "0.3.0",
+  "jax": "0.11.1",
+  "python": "3.12.13 (main, Apr 14 2026, 14:31:26) [MSC v.1944 64 bit (AMD64)]",
+  "model": "IMRPhenomXPHM",
+  "sample_rule": "maximum finite log_likelihood within the named waveform group",
+  "alignment": "analytic-signal envelope maximum at t=0",
+  "normalization": "unit maximum envelope, independent for each event",
+  "detector_projection": false,
+  "ranking_or_PE_scores_modified": false,
+  "events": {
+    "GW190421_213856": {
+      "source_file": "IGWN-GWTC2p1-v2-GW190421_213856_PEDataRelease_mixed_cosmo.h5",
+      "source_sha256": "a5ffbb4de0ea08abd4b7f243001e267d5506577cb17a0a8fbaf3dbda27affd4e",
+      "posterior_group": "C01:IMRPhenomXPHM",
+      "source_record": "https://zenodo.org/records/6513631",
+      "sample_index": 22997,
+      "parameters": {
+        "chirp_mass": 45.39691565627143,
+        "symmetric_mass_ratio": 0.24362434839925903,
+        "spin_1x": 0.18924669185003765,
+        "spin_1y": 0.04526021668696409,
+        "spin_1z": -0.01058599969792081,
+        "spin_2x": -0.3422985442957818,
+        "spin_2y": -0.5520835115239678,
+        "spin_2z": -0.14879776837963324,
+        "luminosity_distance": 2742.806054516669,
+        "phase": 4.958298264499882,
+        "iota": 2.243180176859649,
+        "log_likelihood": 52.78163810142383
+      },
+      "peak_envelope_before_normalization": 3.812503690347405e-22
+    },
+    "GW190731_140936": {
+      "source_file": "IGWN-GWTC2p1-v2-GW190731_140936_PEDataRelease_mixed_cosmo.h5",
+      "source_sha256": "36b22303a6bc72be491b970519a2e53f10e701f8afd5527a7588572705c681dc",
+      "posterior_group": "C01:IMRPhenomXPHM",
+      "source_record": "https://zenodo.org/records/6513631",
+      "sample_index": 18629,
+      "parameters": {
+        "chirp_mass": 52.87424761868968,
+        "symmetric_mass_ratio": 0.249132256643476,
+        "spin_1x": -0.8583533244321044,
+        "spin_1y": -0.3278082766047534,
+        "spin_1z": -0.25967798329856134,
+        "spin_2x": 0.20043707554799425,
+        "spin_2y": 0.14840932183822567,
+        "spin_2z": 0.8328956452125779,
+        "luminosity_distance": 5039.202206477379,
+        "phase": 3.904679414413823,
+        "iota": 0.4909521384561445,
+        "log_likelihood": 34.20316390614177
+      },
+      "peak_envelope_before_normalization": 3.200425392384366e-22
+    },
+    "GW230630_125806": {
+      "source_file": "IGWN-GWTC4p1-18965dda8_5-GW230630_125806-combined_PEDataRelease.hdf5",
+      "source_sha256": "af9bf75a132cc99ff8f5e582b126e2942e5a75d24f78766122230dfea0cbff53",
+      "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+      "source_record": "https://zenodo.org/records/20275769",
+      "sample_index": 8837,
+      "parameters": {
+        "chirp_mass": 75.61412696219384,
+        "symmetric_mass_ratio": 0.23184658337683658,
+        "spin_1x": 0.8342507284641986,
+        "spin_1y": -0.2876476810931087,
+        "spin_1z": 0.14056397035552695,
+        "spin_2x": 0.868644922334068,
+        "spin_2y": -0.17952945695964542,
+        "spin_2z": 0.38281756714105336,
+        "luminosity_distance": 3605.884667578683,
+        "phase": 4.068830730755089,
+        "iota": 2.119627443931802,
+        "log_likelihood": 37.106318207253906
+      },
+      "peak_envelope_before_normalization": 3.4559336441283374e-22
+    },
+    "GW230707_124047": {
+      "source_file": "IGWN-GWTC4p1-18965dda8_5-GW230707_124047-combined_PEDataRelease.hdf5",
+      "source_sha256": "32f9b08e169dfc24f5764f2e599ee7ea2901fa8fc9cde68984ec2902f06367e2",
+      "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+      "source_record": "https://zenodo.org/records/20275769",
+      "sample_index": 4832,
+      "parameters": {
+        "chirp_mass": 60.600301141135404,
+        "symmetric_mass_ratio": 0.246390136428549,
+        "spin_1x": 0.8783330612702939,
+        "spin_1y": -0.2728060034184247,
+        "spin_1z": -0.25135491660730075,
+        "spin_2x": -0.07735799886745374,
+        "spin_2y": -0.5186595062835335,
+        "spin_2z": -0.4175759508799929,
+        "luminosity_distance": 5223.151630528823,
+        "phase": 5.012193829012448,
+        "iota": 2.64570115955984,
+        "log_likelihood": 58.286572965310434
+      },
+      "peak_envelope_before_normalization": 2.805835325370897e-22
+    }
+  },
+  "historical_same_sample_replay_max_abs_difference": 5.7218063620467774e-11
+}

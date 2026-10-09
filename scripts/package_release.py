@@ -1,4 +1,4 @@
-"""Build unpublished modular bundles and verify every regular member."""
+"""Build modular release archives and verify their regular-file members."""
 import argparse
 import hashlib
 import io

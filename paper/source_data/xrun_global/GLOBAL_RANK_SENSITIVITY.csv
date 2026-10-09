@@ -1,0 +1,17 @@
+variant,k,top_k_overlap,max_rank_change_over_all_pairs,variant_top_k_strata,used_to_select_primary
+mean_score_order,10,8,6459,"{""O3-O3"": 5, ""O4a-O4a"": 3, ""O4a-O4b"": 1, ""O4b-O4b"": 1}",False
+mean_score_order,50,45,6459,"{""O3-O3"": 14, ""O3-O4a"": 1, ""O3-O4b"": 1, ""O4a-O4a"": 21, ""O4a-O4b"": 6, ""O4b-O4b"": 7}",False
+mean_score_order,100,95,6459,"{""O3-O3"": 23, ""O3-O4a"": 2, ""O3-O4b"": 1, ""O4a-O4a"": 40, ""O4a-O4b"": 18, ""O4b-O4b"": 16}",False
+mean_score_order,500,497,6459,"{""O3-O3"": 77, ""O3-O4a"": 13, ""O3-O4b"": 10, ""O4a-O4a"": 181, ""O4a-O4b"": 132, ""O4b-O4b"": 87}",False
+sky_nside1024,10,10,1099,"{""O3-O3"": 4, ""O4a-O4a"": 3, ""O4a-O4b"": 1, ""O4b-O4b"": 2}",False
+sky_nside1024,50,50,1099,"{""O3-O3"": 14, ""O3-O4b"": 1, ""O4a-O4a"": 20, ""O4a-O4b"": 7, ""O4b-O4b"": 8}",False
+sky_nside1024,100,100,1099,"{""O3-O3"": 24, ""O3-O4a"": 2, ""O3-O4b"": 1, ""O4a-O4a"": 43, ""O4a-O4b"": 17, ""O4b-O4b"": 13}",False
+sky_nside1024,500,500,1099,"{""O3-O3"": 77, ""O3-O4a"": 14, ""O3-O4b"": 10, ""O4a-O4a"": 180, ""O4a-O4b"": 132, ""O4b-O4b"": 87}",False
+time_bandwidth_0.75,10,10,9798,"{""O3-O3"": 4, ""O4a-O4a"": 3, ""O4a-O4b"": 1, ""O4b-O4b"": 2}",False
+time_bandwidth_0.75,50,49,9798,"{""O3-O3"": 14, ""O4a-O4a"": 21, ""O4a-O4b"": 7, ""O4b-O4b"": 8}",False
+time_bandwidth_0.75,100,97,9798,"{""O3-O3"": 24, ""O3-O4a"": 2, ""O3-O4b"": 1, ""O4a-O4a"": 41, ""O4a-O4b"": 19, ""O4b-O4b"": 13}",False
+time_bandwidth_0.75,500,495,9798,"{""O3-O3"": 78, ""O3-O4a"": 14, ""O3-O4b"": 9, ""O4a-O4a"": 182, ""O4a-O4b"": 130, ""O4b-O4b"": 87}",False
+time_bandwidth_1.5,10,9,11484,"{""O3-O3"": 4, ""O4a-O4a"": 3, ""O4a-O4b"": 1, ""O4b-O4b"": 2}",False
+time_bandwidth_1.5,50,48,11484,"{""O3-O3"": 15, ""O3-O4b"": 1, ""O4a-O4a"": 20, ""O4a-O4b"": 6, ""O4b-O4b"": 8}",False
+time_bandwidth_1.5,100,97,11484,"{""O3-O3"": 24, ""O3-O4a"": 2, ""O3-O4b"": 1, ""O4a-O4a"": 43, ""O4a-O4b"": 17, ""O4b-O4b"": 13}",False
+time_bandwidth_1.5,500,491,11484,"{""O3-O3"": 76, ""O3-O4a"": 14, ""O3-O4b"": 11, ""O4a-O4a"": 175, ""O4a-O4b"": 137, ""O4b-O4b"": 87}",False

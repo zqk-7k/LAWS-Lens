@@ -1,122 +1,70 @@
 # LAWS-Lens
 
-Paper-reproduction repository for **GWLR-UC-01 / C_PHYSICAL**, with the
-paper's FPP/GPD analyses and DOMAIN04 runtime benchmark.
+LAWS-Lens (Low-latency AI-based Waveform Search for gravitational-wave lensing)
+ranks candidate lensed event pairs using detector strain, event times and sky
+localization maps. Four neural waveform branches compare morphology and predicted
+source parameters. Their calibrated score is combined with time-delay and sky-overlap
+scores. Full mass and spin posteriors are used after ranking, not as ranking inputs.
 
-**The repository is public; the Zenodo data release is not yet published.**
-The author confirmed MIT for original code, CC BY 4.0 for self-generated data
-and model weights, and the six creators on 2026-09-25. Third-party materials
-retain their original terms. No scientific model, score,
-ranking or manuscript was changed for this upload.
+## Software and data
 
-## Version identity
+- [Software v1.0.0-rc2](https://doi.org/10.5281/zenodo.22949904)
+- [Data and trained models v1.0.0-rc2](https://doi.org/10.5281/zenodo.22949906)
+- [Download and reproduction instructions](docs/REPRODUCTION.md)
+- [Code entry points](docs/CODE_MAP.md)
+- [Archive and manuscript version map](docs/VERSIONS.md)
 
-- Intended paper release: `v1.0.0` (not yet published).
-- Verified data assembly: `r2`, corrected reproduction extension: `r2p1`.
-- Paper snapshot: `afb86ff5c8f212aec579592f0d7439f3f909d931`.
-- Exact eight data/environment archives: `release/RELEASE_PACKAGE_INDEX_R2.json`.
-- Total indexed archive size: 8,641,841,028 bytes.
-- Original validation receipts: `release/FINAL_VALIDATION_R2.json` and
-  `release/DELIVERED_EXTENSION_REPLAY.json`.
+Both Zenodo records are public. Download complete archives, not transport fragments.
+Filenames retain their original DRAFT labels to preserve the published checksums.
+The software record also contains rc1; use rc2 for this release.
 
-Earlier names in frozen source paths identify provenance, not alternative
-recommended results. Do not substitute A/B, PATH875 or earlier sky experiments
-for the C_PHYSICAL paper baseline.
+The primary experiment fits separate models for O3, O4a and O4b. Each run uses
+three random seeds with fixed source and noise partitions. The archived identifier
+GWLR-UC-01 / C_PHYSICAL links the implementation to its models and scores.
 
-The archived dependency tree also retains older support scripts. Their presence
-does not designate them as current entry points or authorize changing a paper.
-Use only the finite reproduction commands below for release verification.
+## Repository layout
 
-## Repository and data separation
+| Directory | Contents |
+| --- | --- |
+| runtime/training/ | Injection generation, recovery and waveform training |
+| runtime/completion/ | Calibration, evaluation and observed-event scoring |
+| runtime/project/ | Shared modules and retained development scripts |
+| scripts/ | Portable entry points for the extracted release |
+| extension/ | Additional input and inference checks |
+| supplement/ | Environment specifications and input provenance |
+| paper/ | Updated figure and table source data |
+| release/ | Archive manifests and dated validation records |
+| uploaded_snapshot/, speed/ | Earlier source snapshots and runtime analysis |
 
-This repository contains the frozen software dependency closure, configurations,
-environment locks, plotting/replay entry points and release verification reports.
-Trained weights, injection arrays, native sky maps, pair scores, manuscript
-snapshot and the offline wheelhouse belong in the separately indexed archives.
-They are intentionally not stored in Git history.
+The data archives supply weights, calibrations, strain fixtures, maps and scores.
+They are separate from this Git checkout. Historical scripts retain original paths;
+the reproduction wrappers resolve them within the assembled release.
 
-Zenodo upload is **incomplete, with large-file transport errors**. The local execution
-network is restricted, but the release server can access Zenodo normally.
-Unpublished drafts are [software](https://zenodo.org/deposit/22949904) and
-[data/models](https://zenodo.org/deposit/22949906); sign in as the owner to view
-them. They are not published or publicly downloadable releases.
-`release/UPLOAD_STATUS.json` records the dated status. A checksum in a manifest
-is not evidence that the corresponding file has already been uploaded.
+## Quick integrity check
 
-The frozen software archive at commit `3356ccf` retains its pre-upload status
-text. These newer upload notes and `READ_FIRST_ZENODO_DRAFT.md` supersede that
-historical status without changing the archived scientific payload.
-
-The licensed rc2 software snapshot is commit `9814623`; its archive was uploaded
-and fully SHA-256 read back from both GitHub and the Zenodo software draft.
-Four large scientific archives are being retried as 65 checked transport volumes;
-this does not modify the originals. The offline wheelhouse is not being retried
-until its third-party redistribution obligations are resolved.
-See `release/THIRD_PARTY_REVIEW_20260925_CN.md` and the dated upload status.
-
-## Reproduction
-
-1. Obtain the eight exact archives listed in the release index from the author
-   until the Zenodo draft/release is available. Do not use the superseded `r2`
-   extension; use `r2p1`.
-2. Check their SHA-256 values. Extract the four modular r1 archives and two r2
-   additions into a **new empty release directory**. Extract native maps and the
-   wheelhouse separately. Keep this Git checkout and that data assembly separate.
-3. Use CPython 3.12 on Linux x86_64. The frozen environment uses CUDA 12.8 wheels;
-   reproducing GPU checks requires compatible NVIDIA hardware and drivers.
-   The hash-locked requirements are under
-   `supplement/GWLR_UC01_REPRODUCIBILITY_SUPPLEMENT/environment/`.
-4. Run `scripts/create_environment.py --help` for the offline wheelhouse installer.
-   It creates a new environment; it never modifies an existing environment.
-5. In the extracted release directory, using that environment's Python:
+This command uses only the Python standard library:
 
 ```bash
-python -B scripts/reproduce.py paper --release "$PWD"
-python -B scripts/reproduce.py features --release "$PWD"
-python -B scripts/reproduce.py models --release "$PWD"
-python -B scripts/reproduce.py injections --release "$PWD"
-python -B scripts/reproduce.py metrics-sky --release "$PWD"
-python -B extension/scripts/reproduce_extension.py all --release "$PWD"
+python tools/verify_software.py
 ```
 
-Read `extension/README_CN.md` from the assembled archives for the detailed
-validation scope. Prefer these wrappers to running archived training scripts
-directly: historical scripts retain their original paths, and wrappers provide
-the isolated release mapping. Recovery validation needs about 12 GiB of free
-workspace for temporary products.
+For inference and injection regeneration, follow the Linux/Python 3.12 setup in
+[REPRODUCTION.md](docs/REPRODUCTION.md).
 
-The checkout alone supports a dependency-free integrity check:
+## Interpreting results
 
-```bash
-python3 tools/verify_software.py
-```
+Real-event lists use mean rank across three models. Displayed scores and channel
+contributions are model means and can be non-monotonic in rank. Injection recall
+measures recovery of known lensed images; real GWTC lensing labels are unknown.
 
-## Verified scope and limits
+Empirical FPP measures score exceedances in the specified simulated background.
+GPD estimates assume an upper bound of 4, with bounds of 4.5 and 5 used for
+sensitivity analysis. Neither quantity is a lensing posterior probability or an
+annual false-alarm rate.
 
-- 847 original input files were hash-checked; only three pinned public GW-LMC
-  tables were freshly downloaded, not the whole public-input corpus.
-- Frozen validation/test/real model inference was reproduced; this is not a new
-  training run or a fresh blind scientific test.
-- All 500 fixed subcatalogs were recomputed: 288,000 scalar comparisons passed.
-  Overlapping subcatalogs are not independent experiments.
-- Six representative events passed noisy-strain generation, full 8,192-template
-  recovery and BAYESTAR replay, including exact native MOC pixel identifiers.
-  This is not a whole-population regeneration claim.
-- Two original figure scripts and eleven explicitly labelled data-equivalent
-  reconstructions were checked. The missing original layouts were not recovered.
-- The archive extraction replay passed without changing the frozen payload.
-- No independent second physical host was validated.
+## Citation and licence
 
-Empirical conditional FPP is not a lensing posterior probability. GPD endpoint
-`B=4` is a modelling assumption, with `B=4.5/5` sensitivity material retained.
-The release does not establish effective exposure for an annual FAR. Public
-Hanabi-table overlap is not a new Hanabi analysis or a lensing confirmation.
-
-## Licensing and publication
-
-See `LICENSE_STATUS.md`, `LICENSE` and `THIRD_PARTY_NOTICES.md` for license scope.
-Public visibility is not a certification of third-party redistribution rights.
-Zenodo publication must wait for complete verified uploads and third-party
-redistribution review; the author metadata and original-content licenses are approved.
-
-Chinese delivery notes: `release/FINAL_DELIVERY_R2_CN.md`.
+Use [CITATION.cff](CITATION.cff) and the versioned software and data DOIs.
+Original software is MIT licensed. Self-generated data and model weights use
+CC BY 4.0. Third-party materials retain their original terms; see
+[LICENSE_STATUS.md](LICENSE_STATUS.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

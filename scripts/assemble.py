@@ -1,4 +1,4 @@
-"""Create an independent, unpublished paper release workspace."""
+"""Assemble the analysis archives in a separate release workspace."""
 import hashlib
 import json
 from pathlib import Path

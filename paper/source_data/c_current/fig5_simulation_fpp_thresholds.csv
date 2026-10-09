@@ -1,0 +1,3 @@
+run,threshold_S,background_exceedances,background_pairs,empirical_FPP,adjacent_lower_threshold_S,adjacent_lower_exceedances,selection_rule
+O3,1.406159510297031,40,4005,0.0099875156054931337,1.4031653498770855,41,Lowest tabulated threshold with empirical FPP < 0.01
+O4a,2.063838029034593,40,4005,0.0099875156054931337,2.0534561445868453,41,Lowest tabulated threshold with empirical FPP < 0.01

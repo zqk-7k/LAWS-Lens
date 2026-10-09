@@ -2,8 +2,7 @@
 """
 SERVER EXPERIMENT P2-B: real HEALPix sky-posterior overlap vs Gaussian surrogate.
 
-Answers the reviewer's #3 criticism that the analytic A90 Gaussian sky model is
-an idealised surrogate built from truth. This script computes pairwise sky
+Tests the analytic A90 Gaussian sky approximation. It computes pairwise sky
 consistency two ways on the SAME events and checks whether the Gaussian
 surrogate over-states retrieval performance relative to real (non-Gaussian,
 multimodal) HEALPix posteriors.

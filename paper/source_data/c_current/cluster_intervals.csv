@@ -1,0 +1,181 @@
+﻿run,arm,seed,method,metric,cluster_unit,clusters,low,high,replicates,valid_replicates,interpretation,warning
+O3,C_PHYSICAL,2026091721,waveform-new,average_precision,source,270,0.0936766937889847,0.1754857874286639,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,waveform-new,F50,source,270,630.0,1178.1749999999995,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,waveform-new,F90,source,270,4525.525,9596.675,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,waveform-new,R1,source,270,0.15,0.25,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,waveform-new,R10,source,270,0.6916666666666667,0.8,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,three-channel,average_precision,source,270,0.3031225296939592,0.4600542276765528,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,three-channel,F50,source,270,114.0,322.025,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,three-channel,F90,source,270,2469.925,6027.599999999999,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,three-channel,R1,source,270,0.4110416666666666,0.538888888888889,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,three-channel,R10,source,270,0.8027777777777778,0.8944444444444445,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091721,waveform-new,average_precision,noise,6,0.0520013717617106,0.1739967485934764,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,waveform-new,F50,noise,6,495.95,1744.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,waveform-new,F90,noise,6,2838.4,10607.125,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,waveform-new,R1,noise,6,0.1566434199800742,0.250137207425343,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,waveform-new,R10,noise,6,0.7175684639439022,0.7826066314032679,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,three-channel,average_precision,noise,6,0.1895200577400083,0.4806461660981401,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,three-channel,F50,noise,6,80.0,567.05,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,three-channel,F90,noise,6,1720.0,8900.675,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,three-channel,R1,noise,6,0.4085928485463735,0.5345327653403427,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091721,three-channel,R10,noise,6,0.8116840438562423,0.8832911945562942,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,waveform-new,average_precision,source,270,0.1017328498381104,0.2002566289273349,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,waveform-new,F50,source,270,667.95,1213.125,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,waveform-new,F90,source,270,3565.975,5975.775,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,waveform-new,R1,source,270,0.1666666666666666,0.2722916666666666,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,waveform-new,R10,source,270,0.6861111111111111,0.8028472222222222,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,three-channel,average_precision,source,270,0.316402132146191,0.4764605011694358,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,three-channel,F50,source,270,85.975,276.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,three-channel,F90,source,270,1858.775,3658.1,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,three-channel,R1,source,270,0.4333333333333333,0.5611111111111111,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,three-channel,R10,source,270,0.825,0.9111111111111112,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091722,waveform-new,average_precision,noise,6,0.0613663796606664,0.212290220312454,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,waveform-new,F50,noise,6,514.0,1524.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,waveform-new,F90,noise,6,2971.0,6437.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,waveform-new,R1,noise,6,0.1761498426764271,0.258671356311707,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,waveform-new,R10,noise,6,0.7293831168831169,0.7642679025209763,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,three-channel,average_precision,noise,6,0.2092731370726122,0.4983857353137815,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,three-channel,F50,noise,6,54.975,499.17499999999984,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,three-channel,F90,noise,6,1565.875,4026.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,three-channel,R1,noise,6,0.4363810346956414,0.5512604215135555,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091722,three-channel,R10,noise,6,0.8292582579052545,0.9025959643804472,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,waveform-new,average_precision,source,270,0.0968302294674473,0.1853852559400584,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,waveform-new,F50,source,270,687.95,1194.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,waveform-new,F90,source,270,3432.0,5425.5,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,waveform-new,R1,source,270,0.1833333333333333,0.2944444444444444,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,waveform-new,R10,source,270,0.6972222222222222,0.8111111111111111,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,three-channel,average_precision,source,270,0.3058493541936298,0.4661446120768152,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,three-channel,F50,source,270,106.0,319.04999999999995,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,three-channel,F90,source,270,1625.975,4144.299999999999,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,three-channel,R1,source,270,0.3971527777777777,0.5250694444444444,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,three-channel,R10,source,270,0.8555555555555556,0.9334027777777776,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O3,C_PHYSICAL,2026091723,waveform-new,average_precision,noise,6,0.0478630753172959,0.196538342387936,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,waveform-new,F50,noise,6,432.0,1778.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,waveform-new,F90,noise,6,2315.625,6190.624999999997,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,waveform-new,R1,noise,6,0.165474432783275,0.2998901098901099,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,waveform-new,R10,noise,6,0.7197702749738949,0.7993086375026417,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,three-channel,average_precision,noise,6,0.2240371016238424,0.5018247737999245,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,three-channel,F50,noise,6,71.975,596.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,three-channel,F90,noise,6,1164.0,4509.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,three-channel,R1,noise,6,0.409345590365512,0.51,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O3,C_PHYSICAL,2026091723,three-channel,R10,noise,6,0.8510442115251898,0.9315849458245112,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,waveform-new,average_precision,source,270,0.1340300945574097,0.2799542749723782,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,waveform-new,F50,source,270,419.975,1196.0749999999998,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,waveform-new,F90,source,270,2813.975,5849.599999999999,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,waveform-new,R1,source,270,0.2749305555555555,0.3972222222222222,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,waveform-new,R10,source,270,0.7,0.8138888888888889,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,three-channel,average_precision,source,270,0.2628753117092925,0.4449853669265429,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,three-channel,F50,source,270,140.0,459.07499999999993,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,three-channel,F90,source,270,1633.95,4484.375,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,three-channel,R1,source,270,0.4138888888888888,0.5416666666666667,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,three-channel,R10,source,270,0.8111111111111111,0.9027777777777778,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091721,waveform-new,average_precision,noise,6,0.0851921953660845,0.3018833559588712,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,waveform-new,F50,noise,6,331.0,1478.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,waveform-new,F90,noise,6,2664.8250000000003,6293.5499999999965,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,waveform-new,R1,noise,6,0.283821887213847,0.3923762345124641,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,waveform-new,R10,noise,6,0.7204406364749083,0.7901811083538941,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,three-channel,average_precision,noise,6,0.1841484106029108,0.4784312954842558,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,three-channel,F50,noise,6,69.0,644.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,three-channel,F90,noise,6,1291.7,4335.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,three-channel,R1,noise,6,0.4293166704884201,0.5342694350733761,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091721,three-channel,R10,noise,6,0.8339375486294199,0.8801962676962678,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,waveform-new,average_precision,source,270,0.1525118792125544,0.2927652989157265,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,waveform-new,F50,source,270,450.925,1076.125,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,waveform-new,F90,source,270,3171.925,5393.9,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,waveform-new,R1,source,270,0.2416666666666667,0.3611111111111111,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,waveform-new,R10,source,270,0.6777777777777778,0.7972916666666666,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,three-channel,average_precision,source,270,0.2728050298337363,0.4498217698395806,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,three-channel,F50,source,270,142.0,371.025,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,three-channel,F90,source,270,1649.0,4299.349999999999,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,three-channel,R1,source,270,0.4222222222222222,0.5583333333333333,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,three-channel,R10,source,270,0.7972222222222223,0.8944444444444444,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091722,waveform-new,average_precision,noise,6,0.0915644755658811,0.3166371271738271,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,waveform-new,F50,noise,6,313.17500000000007,1536.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,waveform-new,F90,noise,6,2535.975,8872.4,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,waveform-new,R1,noise,6,0.2608919259447352,0.3553104077906269,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,waveform-new,R10,noise,6,0.706387936983889,0.7776459420977693,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,three-channel,average_precision,noise,6,0.1972764372559358,0.4817472515993578,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,three-channel,F50,noise,6,82.0,653.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,three-channel,F90,noise,6,1119.0,6417.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,three-channel,R1,noise,6,0.440914437829095,0.5519994632313473,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091722,three-channel,R10,noise,6,0.8223639084616824,0.8712121212121212,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,waveform-new,average_precision,source,270,0.1020125669589393,0.2168545860973827,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,waveform-new,F50,source,270,546.975,1293.1,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,waveform-new,F90,source,270,3064.15,5703.275,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,waveform-new,R1,source,270,0.2777777777777778,0.3944444444444445,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,waveform-new,R10,source,270,0.675,0.7944444444444445,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,three-channel,average_precision,source,270,0.2424318205447142,0.4114127442956153,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,three-channel,F50,source,270,160.975,423.025,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,three-channel,F90,source,270,1731.95,4230.65,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,three-channel,R1,source,270,0.3860416666666666,0.5194444444444444,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,three-channel,R10,source,270,0.8111111111111111,0.9027777777777778,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4a,C_PHYSICAL,2026091723,waveform-new,average_precision,noise,6,0.0605344674248928,0.2016343161861631,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,waveform-new,F50,noise,6,398.0,1535.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,waveform-new,F90,noise,6,2043.0,8260.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,waveform-new,R1,noise,6,0.2789097875304772,0.3939414484314053,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,waveform-new,R10,noise,6,0.6899481799607426,0.7905969191270861,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,three-channel,average_precision,noise,6,0.1752172233726199,0.432767599053144,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,three-channel,F50,noise,6,126.95,615.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,three-channel,F90,noise,6,1394.0,4514.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,three-channel,R1,noise,6,0.3912151067323481,0.5045261910844102,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4a,C_PHYSICAL,2026091723,three-channel,R10,noise,6,0.8307692307692307,0.8816029143897997,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,waveform-new,average_precision,source,270,0.1196313801203685,0.2282582669656194,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,waveform-new,F50,source,270,426.0,979.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,waveform-new,F90,source,270,3056.925,5154.45,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,waveform-new,R1,source,270,0.2083333333333333,0.330625,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,waveform-new,R10,source,270,0.7361111111111112,0.8444444444444444,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,three-channel,average_precision,source,270,0.3983087321351904,0.5571593110975253,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,three-channel,F50,source,270,51.0,261.025,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,three-channel,F90,source,270,1367.625,3161.05,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,three-channel,R1,source,270,0.4833333333333333,0.6111111111111112,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,three-channel,R10,source,270,0.8805555555555555,0.95,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091721,waveform-new,average_precision,noise,6,0.0749119482571958,0.2807998834780162,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,waveform-new,F50,noise,6,316.0,1257.0,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,waveform-new,F90,noise,6,2347.4,6845.249999999987,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,waveform-new,R1,noise,6,0.2177552259519472,0.3380135398292822,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,waveform-new,R10,noise,6,0.7584099681923651,0.8257773802971933,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,three-channel,average_precision,noise,6,0.3046007283317062,0.5899405123974205,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,three-channel,F50,noise,6,35.900000000000006,334.0,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,three-channel,F90,noise,6,662.0,3650.0,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,three-channel,R1,noise,6,0.5030861575922309,0.5988860268290235,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091721,three-channel,R10,noise,6,0.8997560173255112,0.93325832189425,1000,999,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,waveform-new,average_precision,source,270,0.1069498504517472,0.2068156261209286,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,waveform-new,F50,source,270,499.975,1073.05,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,waveform-new,F90,source,270,3668.475,5710.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,waveform-new,R1,source,270,0.2,0.3166666666666666,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,waveform-new,R10,source,270,0.6916666666666667,0.8055555555555556,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,three-channel,average_precision,source,270,0.3630752732153291,0.5139129988682448,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,three-channel,F50,source,270,90.0,288.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,three-channel,F90,source,270,1451.95,2921.525,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,three-channel,R1,source,270,0.4111111111111111,0.538888888888889,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,three-channel,R10,source,270,0.875,0.95,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091722,waveform-new,average_precision,noise,6,0.0683220221257133,0.2587462623173702,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,waveform-new,F50,noise,6,329.0,1180.1749999999995,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,waveform-new,F90,noise,6,3092.0,6782.299999999999,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,waveform-new,R1,noise,6,0.2095668859649122,0.3225157281856903,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,waveform-new,R10,noise,6,0.7214418030256252,0.7736639492753623,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,three-channel,average_precision,noise,6,0.2927542567429127,0.548069259139544,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,three-channel,F50,noise,6,76.0,381.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,three-channel,F90,noise,6,1018.75,3652.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,three-channel,R1,noise,6,0.4129768375133348,0.5229945893790948,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091722,three-channel,R10,noise,6,0.8936201507630079,0.934154806570042,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,waveform-new,average_precision,source,270,0.1078154055542003,0.2173591994510385,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,waveform-new,F50,source,270,486.975,1010.05,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,waveform-new,F90,source,270,3300.75,5745.375,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,waveform-new,R1,source,270,0.2027777777777777,0.3166666666666666,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,waveform-new,R10,source,270,0.7221527777777778,0.8333333333333333,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,three-channel,average_precision,source,270,0.3850204936431006,0.5479405896497452,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,three-channel,F50,source,270,67.0,246.025,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,three-channel,F90,source,270,1345.95,3497.075,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,three-channel,R1,source,270,0.475,0.6027777777777777,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,three-channel,R10,source,270,0.8777083333333333,0.95,1000,1000,"conditional cluster sensitivity, not independent pair CI",Fixed noise and model
+O4b,C_PHYSICAL,2026091723,waveform-new,average_precision,noise,6,0.0765252221090862,0.2140807353072258,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,waveform-new,F50,noise,6,413.0,1290.05,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,waveform-new,F90,noise,6,2556.025,6997.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,waveform-new,R1,noise,6,0.2348574587380557,0.2920988278944261,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,waveform-new,R10,noise,6,0.7424659307693741,0.8067498971052272,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,three-channel,average_precision,noise,6,0.3089248891798675,0.5671818016312745,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,three-channel,F50,noise,6,56.0,444.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,three-channel,F90,noise,6,1052.925,3927.0,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,three-channel,R1,noise,6,0.4778132482043096,0.5964853977997524,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents
+O4b,C_PHYSICAL,2026091723,three-channel,R10,noise,6,0.8878862037465135,0.9368206769146076,1000,1000,"conditional cluster sensitivity, not independent pair CI",Only six test noise parents

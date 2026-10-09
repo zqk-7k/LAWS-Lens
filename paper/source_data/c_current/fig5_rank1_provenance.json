@@ -1,0 +1,65 @@
+{
+  "events": {
+    "GW230606_004305": {
+      "source_file": "IGWN-GWTC4p1-18965dda8_5-GW230606_004305-combined_PEDataRelease.hdf5",
+      "source_sha256": "8c4f6979e9367dc7f879413833c90a408d8c5d7dac94dc4bb59b1b2368c6c71c",
+      "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+      "sample_index": 9245,
+      "parameters": {
+        "chirp_mass": 38.282299657593036,
+        "symmetric_mass_ratio": 0.2432767543101428,
+        "spin_1x": 0.22572416733659256,
+        "spin_1y": -0.03781397607557317,
+        "spin_1z": -0.6913319552325954,
+        "spin_2x": -0.5292648830399268,
+        "spin_2y": 0.08126558909906012,
+        "spin_2z": 0.5307392844728552,
+        "luminosity_distance": 2769.9855238121645,
+        "phase": 3.9713605151146076,
+        "iota": 2.458393365288471,
+        "log_likelihood": 54.5303910064978
+      },
+      "source_record": "https://zenodo.org/records/20275769",
+      "peak_envelope_before_normalization": 3.2252698098464455e-22
+    },
+    "GW231226_101520": {
+      "source_file": "IGWN-GWTC4p1-18965dda8_5-GW231226_101520-combined_PEDataRelease.hdf5",
+      "source_sha256": "611cb4c64129a3048382f1afc862b521968d533247c7fe7a2c813aaa8f6087c2",
+      "posterior_group": "C00:IMRPhenomXPHM-SpinTaylor",
+      "sample_index": 15249,
+      "parameters": {
+        "chirp_mass": 39.40611319666821,
+        "symmetric_mass_ratio": 0.23629400262180736,
+        "spin_1x": -0.579895872032606,
+        "spin_1y": -0.39746919399475916,
+        "spin_1z": 0.32137191413531424,
+        "spin_2x": 0.19135628827914195,
+        "spin_2y": 0.23944699671654038,
+        "spin_2z": -0.825733420815999,
+        "luminosity_distance": 1241.0148517628638,
+        "phase": 1.722248338678692,
+        "iota": 2.828233626820518,
+        "log_likelihood": 567.011566558656
+      },
+      "source_record": "https://zenodo.org/records/20275769",
+      "peak_envelope_before_normalization": 7.739124235401469e-22
+    }
+  },
+  "implementation_sha256": "58ac242de37ed5ebe679206278d9b5fe90bc5eb1b5aefc6a49f0371fbc21c63a",
+  "model": "IMRPhenomXPHM",
+  "jax": "0.11.0",
+  "sample_rule": "maximum finite log_likelihood in C00:IMRPhenomXPHM-SpinTaylor",
+  "alignment": "analytic-signal envelope peak at time zero",
+  "normalization": "unit envelope maximum per event, not a detector fit",
+  "detector_projection": false,
+  "rank": 1,
+  "raw_input_sha256": "5d692d1f51d1d83eae9b3b31cdc345adf4c5fb258d8113aadecdfa88107a12d7",
+  "old_example_vs_frozen_C_max_abs_difference": 4.440892098500626e-16,
+  "source_sample_count_per_detector": 4096,
+  "sample_rate_Hz": 2048,
+  "display_range_s": [
+    -0.8,
+    0.12
+  ],
+  "scores_and_ranks_modified": false
+}

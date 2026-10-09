@@ -203,5 +203,5 @@ save('reports/REPRODUCIBILITY_FINAL_STATUS.json', {'code':'GWLR-UC-01-C-REPRO-20
     'full_cross_machine_retraining_verified':False, 'paper_modified':False,
     'historical_hashes_unchanged':True,
     'remaining_author_actions':['public repository publication and DOI','authorship/license approval'],
-    'scope_limitations':['full raw corpus not re-downloaded','full training not re-run','O4a official zip member routes not re-extracted this turn']})
+    'scope_limitations':['full raw corpus not re-downloaded','full training not re-run','O4a official zip member routes retained from the input manifest']})
 print('SUPPLEMENT_REPORTS_READY', flush=True)

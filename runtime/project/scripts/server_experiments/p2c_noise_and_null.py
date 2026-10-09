@@ -2,8 +2,7 @@
 """
 SERVER EXPERIMENT P2-C: real/recolored-noise robustness + real GWTC null test.
 
-Answers the reviewer's #7 ("noise is stationary Gaussian; no real-data null
-test"). Two parts:
+Development experiment with two parts:
 
 PART 1 - recolored real-noise injection:
     Take real O3/O4 noise segments from your strain store, recolor to the target
@@ -19,9 +18,8 @@ PART 2 - real GWTC null test:
     historical pair GW170104-GW170814 behaves as expected (parameter/sky
     consistency high, time-delay down-weighted).
 
-This file is a SCAFFOLD: the strain I/O and encoder-forward calls must be wired
-to your actual modules (marked TODO). The reranking + null-analysis logic is
-complete and reuses your matchgw/aux_priors scorers.
+The noise mode is incomplete: strain input and encoder adapters are marked
+TODO. The reranking and null-analysis code uses matchgw/aux_priors scorers.
 
 Run:
     cd /root/autodl-tmp/gw-catalog

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-09",
+  "files": [
+    {
+      "path": "extension/scripts/assemble_extension.py",
+      "original_sha256": "154d2cd8d87da20267f05eafce8baa48559938162234fdc277f4023feb3268f2",
+      "bytes": 15562,
+      "sha256": "07f0c560e83496e382aa512baadfc4f16a70604f49b46e6a13fdefd5b3e609ff",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "runtime/project/scripts/server_experiments/exp1_density_stress.py",
+      "original_sha256": "1148eb94b6ac1591969f19c6c8b1235e4d9f9e87f53fc4045bfdbb94363507aa",
+      "bytes": 6063,
+      "sha256": "62ef806591e0bf10f75c33aea68509044c3d1303a215e2ff48845be33f37c0af",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "runtime/project/scripts/server_experiments/p2a_ann_sparse_retrieval.py",
+      "original_sha256": "d29bc98dae389dfcd955d2e2e58f13d998c77df70db58ddf9c6ee1efba41761c",
+      "bytes": 15844,
+      "sha256": "fe756cf1a28937b4c2d8b7e652b8ee7f80e54be205a3a92087f55d1fae3e2a7a",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "runtime/project/scripts/server_experiments/p2b_real_skymap_overlap.py",
+      "original_sha256": "d12a387bff2479ca0e5d69b14f0c49e1aae387b80551c34e7eb0df61f712a08f",
+      "bytes": 8451,
+      "sha256": "6d2df0fb451e14137b074a36c09b7a8c36dcd170c9dc6ecc4be9f6b84d856fb9",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "runtime/project/scripts/server_experiments/p2c_noise_and_null.py",
+      "original_sha256": "1e764987c9d209d23a08c51ed139314916f0260b0640cab58804690c78c3d38d",
+      "bytes": 9171,
+      "sha256": "a2f76a8dd238c6dc892dfaa3d789043826eff1019b51554d959b2ac66e807ca4",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "scripts/assemble.py",
+      "original_sha256": "351479ced407c5afc83355a5f229311ab5235709212ed4f069a16d7fc5470929",
+      "bytes": 4425,
+      "sha256": "98286878734f22db411d6f44a5d12558df53096e0ed9e7b2a74e8ad0727f659f",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "scripts/package_release.py",
+      "original_sha256": "74eb507b3cb9a67aeb6b64279d26088b2386634955f76eb9ac3fac15eddf3c02",
+      "bytes": 5824,
+      "sha256": "9cfe3c7898ecaa0190e41d2117816b46b04537810ba519c19981f2b25538b3d7",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "original_sha256": "e4f7974810e26552976fdb8e5afa62d832b487dbc3674887fc5a9844873fb7c8",
+      "bytes": 1881,
+      "sha256": "cfaa154a28113469df1844e5c828058e08e0aa6c54f4f124c7f5b65ed172190e",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    },
+    {
+      "path": "supplement/GWLR_UC01_REPRODUCIBILITY_SUPPLEMENT/scripts/finalize_supplement.py",
+      "original_sha256": "7a7b96d22cc477198c2a4d4d0ece90e7a8fe2a47edf454d50a81327b170b3a28",
+      "bytes": 14323,
+      "sha256": "f9c5d78f7be4410d5329c35e176f187fe427c832adc2c585a4a96ed7e368ea59",
+      "change": "Comments, docstrings or report wording only; scientific calculations unchanged."
+    }
+  ]
+}

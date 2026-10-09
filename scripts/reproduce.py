@@ -1,4 +1,4 @@
-"""Finite release validation entry point. Never trains, tunes, or publishes."""
+"""Run metric, feature, model and injection checks on an assembled release."""
 import argparse
 from datetime import datetime, timezone
 from pathlib import Path

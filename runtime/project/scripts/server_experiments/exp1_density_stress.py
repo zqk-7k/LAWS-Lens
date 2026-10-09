@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-EXPERIMENT 1 (reviewer's #1 concern): event-density stress test.
+Event-density stress test for the historical simulation configuration.
 
 Question: is the high performance of the time/sky priors an artefact of the
 sparse ~10-year observation window (9000 events => ~900/yr), which makes

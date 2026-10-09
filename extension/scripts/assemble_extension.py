@@ -66,7 +66,7 @@ def main():
         checks.append({'file':row['filename'],'sha256':digest,'matches_expected':digest==row['sha256']})
     if not downloaded['complete'] or not all(x['matches_expected'] for x in checks):
         raise RuntimeError('Public download/relay check failed')
-    save(evidence/'PUBLIC_DOWNLOAD_AND_RELAY.json',{'status':'PASS','download_host':'local Codex workspace',
+    save(evidence/'PUBLIC_DOWNLOAD_AND_RELAY.json',{'status':'PASS','download_host':'local workstation',
         'server_download_succeeded':False,'local_download_and_verified_transfer_succeeded':True,'checks':checks,
         'full_public_input_corpus_downloaded':False})
     before=json.loads((core/'audit/PROTECTED_INPUTS.json').read_text())

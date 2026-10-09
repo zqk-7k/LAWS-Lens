@@ -1,0 +1,10 @@
+﻿run,q,shape,endpoint,heldout_above_model_endpoint,heldout_maximum,interpretation
+O3,0.9,-0.731067780221149,2.331382162064332,3,2.4636404578118083,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O3,0.95,-0.5107641079512825,2.375505325332876,3,2.4636404578118083,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O3,0.975,-0.4211798457044178,2.449677095117341,2,2.4636404578118083,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O4a,0.9,-0.643569509280425,3.299580427138673,1,3.883953835557175,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O4a,0.95,-0.6615516863190258,3.2923661556954547,2,3.883953835557175,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O4a,0.975,-0.5924268708635427,3.3133397865577763,1,3.883953835557175,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O4b,0.9,-0.5429250181675451,2.7884169110346573,0,2.53325602994173,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O4b,0.95,-0.4311486563095043,2.845834884253149,0,2.53325602994173,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"
+O4b,0.975,-0.368220013894743,2.916959656713359,0,2.53325602994173,"Endpoint sensitivity diagnostic, not an extra post-hoc selection gate"

@@ -1,0 +1,4 @@
+run,model,FPP_threshold,true_pairs_retained,true_pairs_total,true_pair_recovery_fraction,false_pairs_retained,false_pairs_total,noncompanion_tail_fraction,test_singleton_exceedances,test_singleton_pairs,test_singleton_tail_fraction,zero_background_count_true_retained
+O3,mean_S,0.01,134,180,0.7444444444444445,870,100845,0.0086271009965789,34,4005,0.0084893882646691,51
+O4a,mean_S,0.01,133,180,0.7388888888888889,965,100845,0.0095691407605731,57,4005,0.0142322097378277,51
+O4b,mean_S,0.01,145,180,0.8055555555555556,1008,100845,0.009995537706381,38,4005,0.0094881398252184,50

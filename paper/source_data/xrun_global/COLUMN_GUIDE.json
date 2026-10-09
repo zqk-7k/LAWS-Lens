@@ -1,0 +1,36 @@
+{
+  "primary": "global_rank: mean of global per-seed ordinal ranks, NOT mean-score order or merged stratum ranks.",
+  "seed_mapping": {
+    "seed21": 2026100121,
+    "seed22": 2026100122,
+    "seed23": 2026100123
+  },
+  "weights": {
+    "2026100121": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "2026100122": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "2026100123": [
+      0.3,
+      0.35,
+      0.35
+    ]
+  },
+  "seed_weight_order": [
+    "waveform",
+    "time",
+    "sky"
+  ],
+  "mean_score": "Simple arithmetic mean of frozen seed final scores, not a lensing probability.",
+  "time_support": "Empirical training-delay min/max membership, not a guarantee of reliable density or astrophysical calibration.",
+  "stratum_rank": "Original within-stratum consensus rank retained for reference; never used to construct global_rank.",
+  "best_worst_span": "Seed disagreement, not a statistical confidence interval.",
+  "no_candidate_threshold": "TOP100 is a display subset, not 100 detections or a tuned discovery threshold.",
+  "conditional_FPP": "Not attached: old conditional FPP is not validated as global false-alarm probability."
+}

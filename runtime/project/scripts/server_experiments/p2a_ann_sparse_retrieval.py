@@ -2,7 +2,7 @@
 """
 SERVER EXPERIMENT P2-A: ANN sparse retrieval at 1e5-1e6 events.
 
-Directly answers the reviewer's #1 criticism ("the method is still O(N^2)").
+Explores approximate retrieval instead of evaluating all O(N^2) pairs.
 Replaces the dense full-catalog score matrix with FAISS/HNSW approximate
 nearest-neighbour (ANN) retrieval over the waveform embeddings, plus time/sky
 prefilters, so only O(N*K) candidate edges are physically reranked.
