@@ -1,7 +1,6 @@
-# LAWS-Lens 私有发布候选 r2
+# 历史使用说明：LAWS-Lens r2
 
-当前主实验：GWLR-UC-01 / C_PHYSICAL。论文快照：afb86ff。
-禁止将此草稿称为已公开发布或已取得DOI。禁止自行修改论文、评分和权重。
+本说明对应 r2 打包时的主实验 GWLR-UC-01 / C_PHYSICAL 和论文快照 afb86ff。当时材料处于公开发布前的准备阶段。当前软件、数据及 DOI 见 [README.md](README.md)，版本对应见 [docs/VERSIONS.md](../docs/VERSIONS.md)。以下保留原始阅读顺序和打包说明。
 
 ## 读取顺序
 

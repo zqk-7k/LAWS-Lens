@@ -10,9 +10,10 @@
 | Joint-run ranking in SI | paper/source_data/xrun_global/; separate joint fits |
 | Five-size O3 runtime | paper/source_data/runtime_curve_20261007/; DOMAIN04/PATH1 |
 
-Published archives preserve their original bytes. Embedded manuscript, creator
-lists and preparation notes are historical snapshots. Current author order is
-given by CITATION.cff and the Zenodo metadata. Use rc2 and complete data archives.
+The published archives retain the manuscript, creator lists and preparation notes
+recorded when they were assembled. Current author information is given in
+CITATION.cff and the Zenodo metadata. Use the rc2 software package and the seven
+complete data archives listed in release/PUBLISHED_PACKAGES.json.
 
 `release/PUBLISHED_PACKAGES.json` lists the seven public scientific archives.
 The older R2 index also lists a wheelhouse that is not publicly distributed.

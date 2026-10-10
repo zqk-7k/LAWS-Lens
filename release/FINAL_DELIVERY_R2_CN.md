@@ -1,6 +1,6 @@
-# 最终交付核验：LAWS-Lens 私有发布候选 r2
+# 历史记录：LAWS-Lens r2 打包与验证
 
-本轮私有整理与有限分层验证已完成。状态仍为 HOLD_FOR_AUTHOR_REVIEW_NO_PUBLICATION。
+本报告记录 r2 打包时的文件核验和分层验证结果。当时尚未公开发布，状态记录为 HOLD_FOR_AUTHOR_REVIEW_NO_PUBLICATION。当前公开记录及推荐下载文件见 [README.md](README.md)。以下保留该次打包的原始统计。
 
 - 共8个归档，8641841028字节（8.642 GB）。
 - 八包SHA-256校验通过；六个模块包在独立目录合并解压，没有文件覆盖冲突。
